@@ -4,4 +4,4 @@ venv
 main.py 
 pyproject.toml
 uv.lock 
-
+.vscode
