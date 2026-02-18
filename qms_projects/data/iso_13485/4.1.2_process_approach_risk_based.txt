@@ -1,0 +1,31 @@
+ISO 13485:2016
+Clause: 4.1.2
+Title: Process Approach and Risk-Based Approach
+
+SUMMARY:
+Clause 4.1.2 requires the organization to apply a process-based approach within the QMS and integrate risk-based thinking into process control and management.
+
+REQUIREMENTS:
+- Identify all processes necessary for the QMS
+- Define the sequence and interaction between processes
+- Apply a risk-based approach to process control
+- Ensure risk management is integrated into process planning and execution
+
+MANDATORY PROCESS:
+Process Name: Process Management and Risk Integration
+Process Description:
+This process ensures systematic identification, mapping, and risk evaluation of QMS processes, integrating risk-based thinking into process control and monitoring.
+
+REQUIRED DOCUMENTS:
+- Process mapping documentation
+- Process interaction diagram
+- Risk-based approach procedure
+
+REQUIRED RECORDS:
+- Process risk analyses
+- Process review records
+
+EXPECTED EVIDENCE:
+- Approved process map
+- Documented risk assessments per process
+- Evidence of risk-based decision making

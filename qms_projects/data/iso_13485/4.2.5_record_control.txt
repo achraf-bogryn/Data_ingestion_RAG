@@ -1,0 +1,33 @@
+ISO 13485:2016
+Clause: 4.2.5
+Title: Control of Records
+
+SUMMARY:
+Clause 4.2.5 requires the organization to control QMS records to ensure their identification, storage, protection, retrieval, retention, and controlled disposal.
+
+REQUIREMENTS:
+- Define retention periods for records
+- Define storage and archiving methods
+- Ensure integrity, confidentiality, and accessibility
+- Define controlled destruction procedures
+
+MANDATORY PROCESS:
+Process Name: Record Control and Retention Management
+Process Description:
+This process ensures QMS records are properly identified, securely stored, retained for defined periods, protected against loss or alteration, and destroyed in a controlled manner when retention periods expire.
+
+REQUIRED DOCUMENTS:
+- Record control procedure
+- Retention policy
+
+REQUIRED RECORDS:
+- Retention register
+- Access logs
+- Archiving records
+- Destruction records
+
+EXPECTED EVIDENCE:
+- Defined retention schedule
+- Controlled record storage system
+- Evidence of secure destruction
+- Traceability of archived records

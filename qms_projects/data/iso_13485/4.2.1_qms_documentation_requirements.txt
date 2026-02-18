@@ -1,0 +1,31 @@
+ISO 13485:2016
+Clause: 4.2.1
+Title: General Documentation Requirements
+
+SUMMARY:
+Clause 4.2.1 requires the organization to establish and maintain documented information required by ISO 13485. The documentation architecture of the QMS must be structured and controlled.
+
+REQUIREMENTS:
+- Identify all documents and records required by ISO 13485
+- Structure the QMS documentation architecture
+- Maintain a master list of controlled documents
+- Ensure documents remain current and accessible
+
+MANDATORY PROCESS:
+Process Name: QMS Documentation Architecture Management
+Process Description:
+This process ensures identification, structuring, control, and maintenance of all QMS documentation in accordance with ISO 13485 requirements.
+
+REQUIRED DOCUMENTS:
+- Documentation architecture description
+- Master list of controlled documents
+- Document control procedure
+
+REQUIRED RECORDS:
+- Document history records
+- Evidence of document control activities
+
+EXPECTED EVIDENCE:
+- Approved documentation structure
+- Updated master document list
+- Controlled access and version management records

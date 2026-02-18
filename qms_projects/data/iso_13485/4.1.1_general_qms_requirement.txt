@@ -1,0 +1,31 @@
+ISO 13485:2016
+Clause: 4.1.1
+Title: General Quality Management System Requirements
+
+SUMMARY:
+Clause 4.1.1 requires the organization to establish, document, implement, and maintain a Quality Management System (QMS). The organization must define the QMS scope and clearly identify its regulatory role.
+
+REQUIREMENTS:
+- Define the scope and perimeter of the QMS
+- Identify and document the regulatory role of the organization (manufacturer, importer, distributor, etc.)
+- Establish and maintain a documented QMS compliant with ISO 13485 and applicable regulatory requirements
+
+MANDATORY PROCESS:
+Process Name: QMS Governance and Scope Definition
+Process Description:
+This process ensures that the organization formally defines its QMS scope, regulatory responsibilities, and establishes a documented system aligned with ISO 13485 requirements.
+
+REQUIRED DOCUMENTS:
+- Quality Manual
+- Documented QMS scope description
+- Defined regulatory roles documentation
+- Quality Policy
+
+REQUIRED RECORDS:
+- Evidence of QMS implementation
+- Governance approval records
+
+EXPECTED EVIDENCE:
+- Approved Quality Manual
+- Defined organizational regulatory role
+- Implementation proof of QMS processes

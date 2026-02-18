@@ -1,0 +1,34 @@
+ISO 13485:2016
+Clause: 4.2.3
+Title: Medical Device File
+
+SUMMARY:
+Clause 4.2.3 requires the organization to establish and maintain a medical device file for each type or family of medical device. The file must demonstrate conformity with ISO 13485 and regulatory requirements.
+
+REQUIREMENTS:
+- Establish a medical device file for each device type or family
+- Include device description and specifications
+- Include manufacturing and process information
+- Include verification and control documentation
+- Include installation and servicing information where applicable
+- Maintain the file up to date according to regulatory requirements
+
+MANDATORY PROCESS:
+Process Name: Medical Device File Management
+Process Description:
+This process ensures the creation, maintenance, updating, and traceability of medical device files to demonstrate compliance and product conformity.
+
+REQUIRED DOCUMENTS:
+- Medical device file structure
+- Device specifications documentation
+- Manufacturing documentation
+
+REQUIRED RECORDS:
+- Device file update records
+- Product traceability records
+- Version control history
+
+EXPECTED EVIDENCE:
+- Complete and updated device files
+- Documented index and organization of files
+- Evidence of periodic updates

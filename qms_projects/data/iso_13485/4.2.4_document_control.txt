@@ -1,0 +1,34 @@
+ISO 13485:2016
+Clause: 4.2.4
+Title: Control of Documents
+
+SUMMARY:
+Clause 4.2.4 requires the organization to establish and maintain a controlled document management system ensuring documents are reviewed, approved, updated, and distributed appropriately. Obsolete documents must be prevented from unintended use.
+
+REQUIREMENTS:
+- Implement a version control system
+- Ensure documents are reviewed and approved prior to release
+- Control document distribution
+- Prevent unintended use of obsolete documents
+- Manage externally originated documents
+
+MANDATORY PROCESS:
+Process Name: Document Control Management
+Process Description:
+This process ensures QMS documents are identified, reviewed, approved, version-controlled, distributed appropriately, and protected against unintended use of obsolete versions.
+
+REQUIRED DOCUMENTS:
+- Document control procedure
+- External document control procedure (if separate)
+
+REQUIRED RECORDS:
+- Version history logs
+- Approval records
+- Distribution records
+- List of external documents
+
+EXPECTED EVIDENCE:
+- Documented version tracking
+- Approved document records
+- Controlled access to current versions
+- Identification of obsolete documents

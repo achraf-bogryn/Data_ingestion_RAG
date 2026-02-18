@@ -1,0 +1,31 @@
+ISO 13485:2016
+Clause: 4.1.5
+Title: Control of Outsourced Processes
+
+SUMMARY:
+Clause 4.1.5 requires the organization to control outsourced processes that impact product conformity. Monitoring and control mechanisms must be proportionate to the associated risk.
+
+REQUIREMENTS:
+- Identify outsourced processes impacting product conformity
+- Define monitoring and control measures proportionate to risk
+- Formalize quality requirements in written agreements with external providers
+
+MANDATORY PROCESS:
+Process Name: Outsourced Process Control
+Process Description:
+This process ensures that externally provided processes are evaluated, monitored, and controlled to maintain product conformity and regulatory compliance.
+
+REQUIRED DOCUMENTS:
+- Outsourcing control procedure
+- Supplier quality agreements
+- Contractual quality requirements
+
+REQUIRED RECORDS:
+- Supplier evaluations
+- Supplier audit reports
+- Monitoring and performance records
+
+EXPECTED EVIDENCE:
+- Approved supplier agreements
+- Documented supplier evaluations
+- Audit findings and follow-up actions

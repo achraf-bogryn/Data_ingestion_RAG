@@ -1,0 +1,30 @@
+ISO 13485:2016
+Clause: 4.1.4
+Title: Control of Changes to the QMS and Product
+
+SUMMARY:
+Clause 4.1.4 requires the organization to control changes affecting the Quality Management System (QMS) or medical device conformity. All changes must be identified, evaluated, approved, and implemented in a controlled manner.
+
+REQUIREMENTS:
+- Identify proposed changes affecting the QMS
+- Evaluate the impact of changes on the QMS and on the medical device/product
+- Approve changes prior to implementation
+- Ensure controlled implementation of approved changes
+
+MANDATORY PROCESS:
+Process Name: QMS Change Management and Control
+Process Description:
+This process ensures that any change affecting the QMS or product conformity is formally assessed, approved, documented, and implemented under controlled conditions.
+
+REQUIRED DOCUMENTS:
+- Change management procedure
+
+REQUIRED RECORDS:
+- Change register
+- Approved impact assessment records
+- Change approval documentation
+
+EXPECTED EVIDENCE:
+- Documented impact analyses
+- Approved change requests
+- Traceability of implemented changes

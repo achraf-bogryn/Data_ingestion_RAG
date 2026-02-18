@@ -1,0 +1,31 @@
+ISO 13485:2016
+Clause: 4.2.2
+Title: Quality Manual
+
+SUMMARY:
+Clause 4.2.2 requires the organization to establish and maintain a Quality Manual defining the scope of the QMS and describing process interactions.
+
+REQUIREMENTS:
+- Establish a documented Quality Manual
+- Define the QMS scope within the manual
+- Justify exclusions or non-applicability where relevant
+- Describe process interactions
+- Reference applicable procedures
+
+MANDATORY PROCESS:
+Process Name: Quality Manual Development and Maintenance
+Process Description:
+This process ensures the Quality Manual accurately defines the QMS scope, structure, exclusions, and references to applicable procedures.
+
+REQUIRED DOCUMENTS:
+- Version-controlled Quality Manual
+
+REQUIRED RECORDS:
+- Version history
+- Approval records
+- Distribution records
+
+EXPECTED EVIDENCE:
+- Approved Quality Manual
+- Documented scope and exclusions
+- Controlled revision tracking

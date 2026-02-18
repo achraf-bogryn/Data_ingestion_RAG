@@ -1,0 +1,31 @@
+ISO 13485:2016
+Clause: 4.1.6
+Title: Validation of Software Used in the QMS
+
+SUMMARY:
+Clause 4.1.6 requires the organization to validate software used within the QMS prior to initial use and after modifications when necessary. Risks associated with software use must be assessed.
+
+REQUIREMENTS:
+- Identify all software used in QMS processes
+- Assess risks associated with software usage
+- Validate software before initial use
+- Revalidate software after changes when required
+
+MANDATORY PROCESS:
+Process Name: QMS Software Validation
+Process Description:
+This process ensures that software tools used in QMS activities are risk-assessed, validated, and maintained in a validated state to ensure reliability and compliance.
+
+REQUIRED DOCUMENTS:
+- Software validation procedure
+- QMS software register
+
+REQUIRED RECORDS:
+- Software validation reports
+- Revalidation records
+- Validation logs
+
+EXPECTED EVIDENCE:
+- Documented validation protocols
+- Approved validation results
+- Risk assessment documentation for software tools

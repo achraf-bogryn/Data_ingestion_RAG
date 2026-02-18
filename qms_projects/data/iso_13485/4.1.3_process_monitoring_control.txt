@@ -1,0 +1,32 @@
+ISO 13485:2016
+Clause: 4.1.3
+Title: Monitoring and Control of Processes
+
+SUMMARY:
+Clause 4.1.3 requires the organization to define criteria and methods to ensure effective operation and control of QMS processes, including monitoring, measurement, and record retention.
+
+REQUIREMENTS:
+- Define operational criteria and control methods for processes
+- Establish performance indicators (KPIs) where appropriate
+- Monitor and measure processes
+- Maintain records demonstrating process control
+
+MANDATORY PROCESS:
+Process Name: Process Monitoring and Performance Control
+Process Description:
+This process ensures the organization defines measurable criteria, monitors performance indicators, and maintains records demonstrating effective process control.
+
+REQUIRED DOCUMENTS:
+- Process procedures
+- Defined KPI framework
+- Monitoring and measurement procedures
+
+REQUIRED RECORDS:
+- Monitoring reports
+- KPI results
+- Process performance records
+
+EXPECTED EVIDENCE:
+- Documented monitoring results
+- KPI tracking logs
+- Records demonstrating process stability and control
