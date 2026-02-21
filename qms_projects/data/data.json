@@ -1,0 +1,1970 @@
+{
+  "metadata": {
+    "standard": "ISO 13485:2016",
+    "title": "Medical devices — Quality management systems — Requirements for regulatory purposes",
+    "edition": "Third edition",
+    "publication_date": "2016-03-01",
+    "language": "French/English",
+    "total_sections": 8,
+    "total_procedures": 45,
+    "rag_version": "1.0"
+  },
+
+  "sections": [
+    {
+      "section_id": "1",
+      "section_name": "Domaine d'application (Scope)",
+      "description": "Defines the applicability of ISO 13485:2016",
+      "key_points": [
+        "Applies to organizations in one or more stages of medical device lifecycle",
+        "Includes design, development, production, storage, distribution, installation",
+        "Applicable to associated services and post-market activities",
+        "Applies to suppliers and external parties providing products/services"
+      ],
+      "keywords": ["scope", "applicability", "medical device", "lifecycle", "regulatory", "requirements"],
+      "procedures_in_section": ["PROC_001", "PROC_002"],
+      "related_sections": ["2", "3"]
+    },
+
+    {
+      "section_id": "2",
+      "section_name": "Références normatives (Normative References)",
+      "description": "Lists mandatory reference documents",
+      "references": [
+        {
+          "standard": "ISO 9000:2015",
+          "title": "Quality management systems — Fundamental principles and vocabulary"
+        }
+      ],
+      "keywords": ["normative references", "standards", "definitions"]
+    },
+
+    {
+      "section_id": "3",
+      "section_name": "Termes et définitions (Terms and Definitions)",
+      "description": "Complete definitions of 20 key terms used throughout the standard",
+      "definitions": [
+        {
+          "term_id": "DEF_001",
+          "term": "Fiche d'avertissement (Warning Notice)",
+          "definition": "Notice distributed by the organization, following delivery of a medical device, to provide supplementary information or recommendations for corrective or preventive action",
+          "keywords": ["warning", "notice", "post-market", "communication"]
+        },
+        {
+          "term_id": "DEF_002",
+          "term": "Représentant autorisé (Authorized Representative)",
+          "definition": "Natural or legal person established in a country or jurisdiction, mandated in writing by a manufacturer to act on their behalf within specific regulatory obligation tasks",
+          "keywords": ["authorized representative", "manufacturer", "mandate"]
+        },
+        {
+          "term_id": "DEF_003",
+          "term": "Évaluation clinique (Clinical Evaluation)",
+          "definition": "Evaluation and analysis of clinical data relating to a medical device to verify clinical safety and performance when used as intended by the manufacturer",
+          "keywords": ["clinical evaluation", "safety", "performance", "clinical data"]
+        },
+        {
+          "term_id": "DEF_004",
+          "term": "Réclamation (Complaint)",
+          "definition": "Written, electronic, or verbal communication about deficiencies related to identity, quality, durability, reliability, usability, safety or performance of a medical device no longer under organizational control",
+          "keywords": ["complaint", "claim", "post-market", "deficiency"]
+        },
+        {
+          "term_id": "DEF_005",
+          "term": "Distributeur (Distributor)",
+          "definition": "Natural or legal person in the supply chain who, in their own name, contributes to making a medical device available to the end-user",
+          "keywords": ["distributor", "supply chain", "availability"]
+        },
+        {
+          "term_id": "DEF_006",
+          "term": "Dispositif médical implantable (Implantable Medical Device)",
+          "definition": "Medical device that can only be removed by medical or surgical intervention and is designed to be implanted wholly or partly in the human body",
+          "keywords": ["implantable", "implant", "surgical", "intervention"]
+        },
+        {
+          "term_id": "DEF_007",
+          "term": "Importateur (Importer)",
+          "definition": "Natural or legal person in the supply chain who is the first person to make a medical device produced in another country/jurisdiction available in their jurisdiction",
+          "keywords": ["importer", "first distributor", "supply chain"]
+        },
+        {
+          "term_id": "DEF_008",
+          "term": "Étiquetage (Labelling)",
+          "definition": "Label, instructions for use, and any other information related to identification, technical description, destination and correct use of medical device, excluding shipping documents",
+          "keywords": ["labelling", "label", "instructions", "identification"]
+        },
+        {
+          "term_id": "DEF_009",
+          "term": "Cycle de vie (Life cycle)",
+          "definition": "All phases of a medical device's life, from initial conception to final decommissioning and disposal",
+          "keywords": ["lifecycle", "phases", "product life", "stages"]
+        },
+        {
+          "term_id": "DEF_010",
+          "term": "Fabricant (Manufacturer)",
+          "definition": "Natural or legal person responsible for design and/or manufacture of a medical device to make it available for use, in their name",
+          "keywords": ["manufacturer", "responsibility", "design", "fabrication"]
+        },
+        {
+          "term_id": "DEF_011",
+          "term": "Dispositif médical (Medical Device)",
+          "definition": "Instrument, apparatus, equipment, machine, device, implant, in vitro reagent, software, material or other similar or associated article intended for use in human beings for specific medical purposes",
+          "keywords": ["medical device", "definition", "instrument", "equipment"]
+        },
+        {
+          "term_id": "DEF_012",
+          "term": "Famille de dispositifs médicaux (Medical Device Family)",
+          "definition": "Group of medical devices manufactured by the same organization with the same basic design characteristics and performance in terms of safety, intended use or function",
+          "keywords": ["family", "device family", "grouping", "classification"]
+        },
+        {
+          "term_id": "DEF_013",
+          "term": "Évaluation des performances (Performance Evaluation)",
+          "definition": "Evaluation and analysis of data to establish or verify the ability of an in vitro diagnostic medical device to fulfill its intended use",
+          "keywords": ["performance evaluation", "ivd", "in vitro diagnostic"]
+        },
+        {
+          "term_id": "DEF_014",
+          "term": "Surveillance après mise sur le marché (Post-Market Surveillance)",
+          "definition": "Systematic process of collection and analysis of experience gained from medical devices that have been made available",
+          "keywords": ["post-market surveillance", "pms", "monitoring", "experience"]
+        },
+        {
+          "term_id": "DEF_015",
+          "term": "Produit (Product)",
+          "definition": "Result of a process; includes services and outputs of products/services processes",
+          "keywords": ["product", "output", "result", "service"]
+        },
+        {
+          "term_id": "DEF_016",
+          "term": "Produit acheté (Purchased Product)",
+          "definition": "Product supplied by an external party to the organization's QMS",
+          "keywords": ["purchased product", "supplier", "external", "procurement"]
+        },
+        {
+          "term_id": "DEF_017",
+          "term": "Risque (Risk)",
+          "definition": "Combination of the probability of harm and its severity",
+          "keywords": ["risk", "probability", "severity", "harm"]
+        },
+        {
+          "term_id": "DEF_018",
+          "term": "Gestion des risques (Risk Management)",
+          "definition": "Systematic application of management policies, procedures and practices to tasks of risk analysis, evaluation, control and mitigation",
+          "keywords": ["risk management", "risk assessment", "control"]
+        },
+        {
+          "term_id": "DEF_019",
+          "term": "Système de barrière stérile (Sterile Barrier System)",
+          "definition": "Minimal packaging that prevents microorganism penetration and permits aseptic product presentation at the point of use",
+          "keywords": ["sterile barrier", "sterility", "packaging", "aseptic"]
+        },
+        {
+          "term_id": "DEF_020",
+          "term": "Dispositif médical stérile (Sterile Medical Device)",
+          "definition": "Medical device designed to meet sterile state requirements",
+          "keywords": ["sterile", "sterile device", "sterilization"]
+        }
+      ],
+      "keywords": ["terms", "definitions", "vocabulary", "glossary"]
+    },
+
+    {
+      "section_id": "4",
+      "section_name": "Système de management de la qualité (Quality Management System)",
+      "description": "Core QMS requirements including documentation and general requirements",
+      "subsections": [
+        {
+          "subsection_id": "4.1",
+          "subsection_name": "Exigences générales (General Requirements)",
+          "description": "Fundamental QMS establishment and maintenance requirements",
+          "procedures": [
+            {
+              "proc_id": "PROC_4_1_1",
+              "title": "QMS Documentation and Implementation",
+              "requirement": "4.1.1",
+              "what_is_required": "Organization must document and maintain an effective QMS in accordance with standard requirements and applicable regulatory requirements",
+              "key_requirements": [
+                "Document QMS and maintain its effectiveness",
+                "Establish, implement and maintain all documented requirements",
+                "Document organization role(s) under applicable regulatory requirements"
+              ],
+              "implementation_steps": [
+                "1. Define organizational roles (manufacturer, authorized representative, importer, distributor)",
+                "2. Document all QMS procedures and processes",
+                "3. Establish quality management documentation structure",
+                "4. Ensure regulatory requirements compliance",
+                "5. Implement documented procedures"
+              ],
+              "responsibilities": ["Management", "QMS Representative"],
+              "documentation_needed": [
+                "Quality Manual",
+                "Organizational Role Documentation",
+                "Regulatory Requirement Mapping"
+              ],
+              "examples": "An organization involved in device production must document its role as 'Manufacturer' and align all QMS requirements with applicable regulations in their jurisdiction",
+              "keywords": ["QMS", "documentation", "requirements", "implementation"],
+              "related_procedures": ["PROC_4_2_2", "PROC_5_1"],
+              "regulatory_references": ["ISO 13485:2016 Section 4.1.1"]
+            },
+            {
+              "proc_id": "PROC_4_1_2",
+              "title": "Process Determination and Risk-Based Approach",
+              "requirement": "4.1.2",
+              "what_is_required": "Determine necessary QMS processes, apply risk-based approach, and define process sequence/interactions",
+              "key_requirements": [
+                "Determine processes necessary for QMS",
+                "Apply risk-based approach to process control",
+                "Determine sequence and interaction of processes",
+                "Account for organizational roles"
+              ],
+              "implementation_steps": [
+                "1. Identify all QMS processes",
+                "2. Map process interactions",
+                "3. Perform risk assessment for each process",
+                "4. Define control measures based on risk level",
+                "5. Document process sequence"
+              ],
+              "responsibilities": ["Process Owners", "Quality Management"],
+              "documentation_needed": [
+                "Process Map",
+                "Risk Assessment Documentation",
+                "Process Interaction Matrix"
+              ],
+              "examples": "Manufacturing process receives higher control level than administrative process due to direct product impact",
+              "keywords": ["processes", "risk-based approach", "interaction", "sequence"],
+              "related_procedures": ["PROC_7_1", "PROC_8_1"],
+              "regulatory_references": ["ISO 13485:2016 Section 4.1.2"]
+            },
+            {
+              "proc_id": "PROC_4_1_3",
+              "title": "Process Effectiveness and Control Criteria",
+              "requirement": "4.1.3",
+              "what_is_required": "For each QMS process, establish effectiveness criteria, ensure resources, implement necessary actions, monitor/measure/analyze, and maintain records",
+              "key_requirements": [
+                "Determine effectiveness criteria and methods",
+                "Ensure resource and information availability",
+                "Implement necessary actions for planned results",
+                "Monitor, measure and analyze processes",
+                "Establish and maintain records"
+              ],
+              "implementation_steps": [
+                "1. Define KPIs for each process",
+                "2. Allocate necessary resources",
+                "3. Establish monitoring methodology",
+                "4. Implement measurement procedures",
+                "5. Establish record-keeping system",
+                "6. Analyze performance data"
+              ],
+              "responsibilities": ["Process Owners", "Quality Team"],
+              "documentation_needed": [
+                "KPI Definition",
+                "Monitoring Plans",
+                "Performance Records"
+              ],
+              "examples": "Sterilization process KPI: 100% sterility assurance with SAL 10^-6; manufacturing process KPI: zero defects with 99.5% conformance",
+              "keywords": ["effectiveness", "criteria", "monitoring", "measurement"],
+              "related_procedures": ["PROC_8_2", "PROC_8_3"],
+              "regulatory_references": ["ISO 13485:2016 Section 4.1.3"]
+            },
+            {
+              "proc_id": "PROC_4_1_4",
+              "title": "Process Management and Modification Control",
+              "requirement": "4.1.4",
+              "what_is_required": "Manage QMS processes in accordance with requirements; evaluate modifications for impact on QMS and medical devices; control modifications",
+              "key_requirements": [
+                "Manage processes per standard and regulatory requirements",
+                "Evaluate modification impact on QMS",
+                "Evaluate impact on produced medical devices",
+                "Control modifications per standard and regulatory requirements"
+              ],
+              "implementation_steps": [
+                "1. Establish change control procedure",
+                "2. Document all proposed modifications",
+                "3. Perform impact assessment",
+                "4. Obtain necessary approvals",
+                "5. Implement change",
+                "6. Verify effectiveness"
+              ],
+              "responsibilities": ["Change Management Committee", "Process Owner"],
+              "documentation_needed": [
+                "Change Request Form",
+                "Impact Assessment",
+                "Change Log"
+              ],
+              "examples": "Change from supplier A to supplier B requires: supplier evaluation, product testing, documentation update, and verification before implementation",
+              "keywords": ["process management", "modifications", "change control", "impact assessment"],
+              "related_procedures": ["PROC_7_4_1", "PROC_8_5_2"],
+              "regulatory_references": ["ISO 13485:2016 Section 4.1.4"]
+            },
+            {
+              "proc_id": "PROC_4_1_5",
+              "title": "Outsourced Process Management",
+              "requirement": "4.1.5",
+              "what_is_required": "When outsourcing processes affecting product conformity, monitor, control, and remain responsible; establish written quality agreements",
+              "key_requirements": [
+                "Monitor and control outsourced processes",
+                "Remain responsible for conformity",
+                "Control elements proportionate to risk",
+                "Include written quality provisions"
+              ],
+              "implementation_steps": [
+                "1. Identify outsourced processes",
+                "2. Evaluate supplier capability",
+                "3. Develop supplier agreement",
+                "4. Define control measures",
+                "5. Monitor supplier performance",
+                "6. Verify conformity"
+              ],
+              "responsibilities": ["Procurement", "Quality", "Supplier Management"],
+              "documentation_needed": [
+                "Supplier Agreement",
+                "Quality Requirements",
+                "Performance Metrics",
+                "Audit Records"
+              ],
+              "examples": "Outsourced sterilization: Include specific sterilization process validation requirements, parameters, traceability, and SAL requirements in agreement",
+              "keywords": ["outsourcing", "outsourced processes", "supplier", "responsibility"],
+              "related_procedures": ["PROC_7_4", "PROC_7_4_1"],
+              "regulatory_references": ["ISO 13485:2016 Section 4.1.5"]
+            },
+            {
+              "proc_id": "PROC_4_1_6",
+              "title": "Software Application Validation",
+              "requirement": "4.1.6",
+              "what_is_required": "Document procedures for validation of software applications used in QMS; validate before first use and after modifications; maintain records",
+              "key_requirements": [
+                "Document software validation procedures",
+                "Validate before first use",
+                "Revalidate when appropriate after modifications",
+                "Approach proportionate to risk",
+                "Maintain validation records"
+              ],
+              "implementation_steps": [
+                "1. Document software inventory",
+                "2. Assess software risk level",
+                "3. Develop validation plan",
+                "4. Execute validation testing",
+                "5. Document results",
+                "6. Establish change control"
+              ],
+              "responsibilities": ["IT Department", "Quality", "Software Owner"],
+              "documentation_needed": [
+                "Software Inventory List",
+                "Risk Assessment",
+                "Validation Protocol",
+                "Test Results",
+                "Validation Report"
+              ],
+              "examples": "ERP system used for traceability: Initial validation includes testing of record creation, modification, and retrieval functions; revalidation required after system updates",
+              "keywords": ["software", "validation", "QMS", "IT systems"],
+              "related_procedures": ["PROC_7_5_6", "PROC_8_2_4"],
+              "regulatory_references": ["ISO 13485:2016 Section 4.1.6"]
+            }
+          ]
+        },
+
+        {
+          "subsection_id": "4.2",
+          "subsection_name": "Exigences relatives à la documentation (Documentation Requirements)",
+          "description": "Requirements for QMS documentation including manual, device file, and record control",
+          "procedures": [
+            {
+              "proc_id": "PROC_4_2_1",
+              "title": "QMS Documentation Generalities",
+              "requirement": "4.2.1",
+              "what_is_required": "QMS documentation must include quality policy, quality objectives, quality manual, documented procedures, and records as required by standard",
+              "documentation_components": [
+                "Documented quality policy and objectives",
+                "Quality manual",
+                "Documented procedures and records required by standard",
+                "Documents needed for effective process planning and control",
+                "Documentation specified by applicable regulatory requirements"
+              ],
+              "implementation_steps": [
+                "1. Develop quality policy statement",
+                "2. Establish quality objectives",
+                "3. Create quality manual",
+                "4. Document core procedures",
+                "5. Establish record system",
+                "6. Review for completeness"
+              ],
+              "responsibilities": ["Quality Manager", "Document Management"],
+              "documentation_needed": [
+                "Quality Manual",
+                "Procedure List",
+                "Document Register",
+                "Record Index"
+              ],
+              "examples": "Quality manual includes: organizational overview, QMS scope, documented procedures overview, and process interactions",
+              "keywords": ["documentation", "quality manual", "procedures", "records"],
+              "related_procedures": ["PROC_4_2_2", "PROC_4_2_4", "PROC_4_2_5"],
+              "regulatory_references": ["ISO 13485:2016 Section 4.2.1"]
+            },
+            {
+              "proc_id": "PROC_4_2_2",
+              "title": "Quality Manual Development and Maintenance",
+              "requirement": "4.2.2",
+              "what_is_required": "Develop and maintain quality manual including QMS scope with justification of exclusions, documented procedures reference, and process interactions description",
+              "manual_content_requirements": [
+                "QMS scope with detailed exclusions justification",
+                "Documented procedures or references",
+                "Description of process interactions"
+              ],
+              "implementation_steps": [
+                "1. Define QMS scope",
+                "2. Document exclusions with justification",
+                "3. List all procedures",
+                "4. Create process flow diagram",
+                "5. Document interactions",
+                "6. Include documentation overview"
+              ],
+              "responsibilities": ["Quality Manager", "Top Management"],
+              "documentation_needed": [
+                "Quality Manual Document",
+                "Process Map",
+                "Exclusion Justification Document"
+              ],
+              "examples": "If design control excluded per regulatory approval, manual must document: 'Design control (section 7.3) is excluded because approved medical device designs per PMDA regulations'",
+              "keywords": ["quality manual", "scope", "exclusions", "processes"],
+              "related_procedures": ["PROC_4_2_1", "PROC_1"],
+              "regulatory_references": ["ISO 13485:2016 Section 4.2.2"]
+            },
+            {
+              "proc_id": "PROC_4_2_3",
+              "title": "Medical Device File (MDR) Development and Maintenance",
+              "requirement": "4.2.3",
+              "what_is_required": "For each device type/family, establish and maintain file(s) containing documents proving conformity to standard and regulatory requirements",
+              "mdr_content_requirements": [
+                "General device description with intended use and labelling",
+                "Product specifications",
+                "Manufacturing, packaging, storage, handling and distribution specifications",
+                "Measurement and monitoring procedures",
+                "Installation requirements (when applicable)",
+                "Associated services procedures (when applicable)"
+              ],
+              "implementation_steps": [
+                "1. Identify all device types/families",
+                "2. Collect design documentation",
+                "3. Compile manufacturing procedures",
+                "4. Include specifications and standards",
+                "5. Add verification/validation records",
+                "6. Maintain file updates"
+              ],
+              "responsibilities": ["Product Manager", "Quality", "Engineering"],
+              "documentation_needed": [
+                "Product Description",
+                "Design File",
+                "Manufacturing Procedure",
+                "Specifications",
+                "Validation Records"
+              ],
+              "examples": "MDR for cardiac stent includes: product description, material specs, manufacturing process, sterilization validation, clinical data, and shelf-life documentation",
+              "keywords": ["medical device file", "MDR", "device file", "product documentation"],
+              "related_procedures": ["PROC_7_3_10", "PROC_4_2_1"],
+              "regulatory_references": ["ISO 13485:2016 Section 4.2.3"]
+            },
+            {
+              "proc_id": "PROC_4_2_4",
+              "title": "Document Control Procedure",
+              "requirement": "4.2.4",
+              "what_is_required": "Control QMS documents; documented procedure defining controls for review, approval, version status, availability, readability, identification, obsolescence, and external documents",
+              "document_control_requirements": [
+                "Review and approve documents before distribution",
+                "Review, update and re-approve documents",
+                "Ensure version status and changes are identified",
+                "Ensure current versions available at use points",
+                "Ensure documents remain legible and identifiable",
+                "Control external origin documents",
+                "Prevent document deterioration and loss",
+                "Identify and control obsolete documents"
+              ],
+              "implementation_steps": [
+                "1. Create document control procedure",
+                "2. Establish document numbering system",
+                "3. Define approval authority",
+                "4. Set up version control",
+                "5. Establish distribution list",
+                "6. Define retention periods",
+                "7. Implement obsolescence control"
+              ],
+              "responsibilities": ["Document Control Officer", "Quality Manager"],
+              "documentation_needed": [
+                "Document Control Procedure",
+                "Document Register",
+                "Approval Matrix",
+                "Distribution Log"
+              ],
+              "examples": "Procedure QMS-001 Rev. B: Released date 2024, approved by QA Manager, 45 copies distributed, obsolete Rev. A retained for 5 years per retention policy",
+              "keywords": ["document control", "version control", "obsolescence", "document management"],
+              "related_procedures": ["PROC_4_2_5", "PROC_4_2_2"],
+              "regulatory_references": ["ISO 13485:2016 Section 4.2.4"]
+            },
+            {
+              "proc_id": "PROC_4_2_5",
+              "title": "Record Control and Management",
+              "requirement": "4.2.5",
+              "what_is_required": "Maintain records proving QMS conformity and effectiveness; document procedures for record identification, storage, security, integrity, accessibility, retention, and disposal",
+              "record_control_requirements": [
+                "Identify, store, protect and ensure record integrity",
+                "Ensure accessibility",
+                "Define retention period",
+                "Protect confidential medical information",
+                "Keep records legible and identifiable",
+                "Keep modifications identifiable",
+                "Retain records for device lifetime minimum 2 years"
+              ],
+              "implementation_steps": [
+                "1. Identify all record types",
+                "2. Establish record numbering system",
+                "3. Define retention periods",
+                "4. Establish storage location/conditions",
+                "5. Define access controls",
+                "6. Create disposal procedure",
+                "7. Implement tracking system"
+              ],
+              "responsibilities": ["Records Manager", "Quality Team"],
+              "documentation_needed": [
+                "Record Control Procedure",
+                "Record Retention Schedule",
+                "Record Index",
+                "Access Control List"
+              ],
+              "examples": "Batch record for cardiac stent: retained for device lifetime + 2 years minimum; stored in secure archive; access restricted to quality personnel; any corrections made with dates and signatures",
+              "keywords": ["records", "record control", "retention", "traceability"],
+              "related_procedures": ["PROC_4_2_4", "PROC_7_5_9"],
+              "regulatory_references": ["ISO 13485:2016 Section 4.2.5"]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "section_id": "5",
+      "section_name": "Responsabilité de la direction (Management Responsibility)",
+      "description": "Leadership, commitment, quality policy, planning, and management review",
+      "procedures": [
+        {
+          "proc_id": "PROC_5_1",
+          "title": "Management Commitment and Leadership",
+          "requirement": "5.1",
+          "what_is_required": "Top management must demonstrate commitment to QMS development, implementation, and effectiveness by: communicating importance of customer/regulatory compliance, establishing quality policy, ensuring quality objectives, conducting management reviews, and ensuring resource availability",
+          "key_actions": [
+            "Communicate importance of satisfying customer and regulatory requirements",
+            "Establish quality policy",
+            "Ensure quality objectives are established",
+            "Conduct management reviews",
+            "Ensure resource availability"
+          ],
+          "implementation_steps": [
+            "1. Define management roles and responsibilities",
+            "2. Develop quality policy statement",
+            "3. Establish quality objectives",
+            "4. Schedule regular management reviews",
+            "5. Allocate necessary resources",
+            "6. Communicate expectations throughout organization"
+          ],
+          "responsibilities": ["Top Management", "CEO/President"],
+          "documentation_needed": [
+            "Quality Policy",
+            "Management Review Records",
+            "Resource Allocation Plan"
+          ],
+          "examples": "CEO publicly commits to zero-defect policy, ensures quarterly management reviews, and allocates budget for quality improvements",
+          "keywords": ["management commitment", "leadership", "quality policy", "resources"],
+          "related_procedures": ["PROC_5_3", "PROC_5_6"],
+          "regulatory_references": ["ISO 13485:2016 Section 5.1"]
+        },
+        {
+          "proc_id": "PROC_5_2",
+          "title": "Customer Focus and Orientation",
+          "requirement": "5.2",
+          "what_is_required": "Management must ensure customer requirements and applicable regulatory requirements are determined and met",
+          "key_actions": [
+            "Determine customer requirements",
+            "Determine regulatory requirements",
+            "Ensure requirements are met"
+          ],
+          "implementation_steps": [
+            "1. Establish customer requirement gathering process",
+            "2. Identify applicable regulations",
+            "3. Translate requirements to specifications",
+            "4. Verify compliance mechanisms",
+            "5. Monitor customer satisfaction"
+          ],
+          "responsibilities": ["Sales/Marketing", "Quality", "Regulatory Affairs"],
+          "documentation_needed": [
+            "Customer Requirements Documentation",
+            "Regulatory Requirement Checklist",
+            "Requirements Matrix"
+          ],
+          "keywords": ["customer requirements", "regulatory requirements", "customer focus"],
+          "related_procedures": ["PROC_7_2_1", "PROC_7_2_2"],
+          "regulatory_references": ["ISO 13485:2016 Section 5.2"]
+        },
+        {
+          "proc_id": "PROC_5_3",
+          "title": "Quality Policy Development and Communication",
+          "requirement": "5.3",
+          "what_is_required": "Management must ensure quality policy is: appropriate to organization purpose, includes commitment to requirement satisfaction and QMS effectiveness, provides framework for quality objectives, is communicated and understood",
+          "policy_requirements": [
+            "Appropriate to organizational purpose",
+            "Includes commitment to satisfy requirements",
+            "Includes commitment to maintain QMS effectiveness",
+            "Provides quality objectives framework",
+            "Communicated within organization",
+            "Understood by personnel"
+          ],
+          "implementation_steps": [
+            "1. Develop quality policy statement",
+            "2. Align with business objectives",
+            "3. Include measurable commitment",
+            "4. Communicate via multiple channels",
+            "5. Include in employee orientation",
+            "6. Post in visible locations"
+          ],
+          "responsibilities": ["Top Management", "HR/Communications"],
+          "documentation_needed": [
+            "Quality Policy Statement",
+            "Communication Plan",
+            "Training Records"
+          ],
+          "examples": "Quality Policy: 'We are committed to designing, manufacturing, and delivering medical devices that meet all customer and regulatory requirements, with zero tolerance for non-conformities'",
+          "keywords": ["quality policy", "commitment", "communication"],
+          "related_procedures": ["PROC_5_4", "PROC_5_1"],
+          "regulatory_references": ["ISO 13485:2016 Section 5.3"]
+        },
+        {
+          "proc_id": "PROC_5_4_1",
+          "title": "Quality Objectives Setting",
+          "requirement": "5.4.1",
+          "what_is_required": "Management must ensure quality objectives including those needed for product requirements and regulatory requirements are established for appropriate functions/levels, measurable and consistent with quality policy",
+          "objective_requirements": [
+            "Address product requirement satisfaction",
+            "Address regulatory requirement satisfaction",
+            "Established for appropriate functions and levels",
+            "Measurable",
+            "Consistent with quality policy"
+          ],
+          "implementation_steps": [
+            "1. Review customer and regulatory requirements",
+            "2. Define objectives for each function",
+            "3. Set SMART objectives",
+            "4. Align with quality policy",
+            "5. Communicate objectives",
+            "6. Monitor achievement"
+          ],
+          "responsibilities": ["Quality Manager", "Department Heads"],
+          "documentation_needed": [
+            "Quality Objectives Document",
+            "Objectives Tracking Sheet"
+          ],
+          "examples": "Manufacturing: 'Achieve 99.5% first-pass yield'; Quality: 'Zero critical non-conformities'; Delivery: '100% on-time delivery'",
+          "keywords": ["quality objectives", "objectives", "targets", "performance goals"],
+          "related_procedures": ["PROC_5_4_2", "PROC_8_2_5"],
+          "regulatory_references": ["ISO 13485:2016 Section 5.4.1"]
+        },
+        {
+          "proc_id": "PROC_5_4_2",
+          "title": "QMS Planning and Modification Management",
+          "requirement": "5.4.2",
+          "what_is_required": "Management must ensure QMS planning is realized to satisfy requirements; ensure QMS coherence is not affected when planning modifications",
+          "planning_requirements": [
+            "QMS planning aimed at satisfying section 4.1 requirements",
+            "QMS planning aimed at achieving quality objectives",
+            "Planning ensures QMS coherence when modifications implemented"
+          ],
+          "implementation_steps": [
+            "1. Create strategic plan",
+            "2. Define QMS development roadmap",
+            "3. Establish change management procedure",
+            "4. Assess modification impact",
+            "5. Monitor implementation",
+            "6. Verify effectiveness"
+          ],
+          "responsibilities": ["Top Management", "Quality Manager"],
+          "documentation_needed": [
+            "Strategic Plan",
+            "Change Management Procedure",
+            "Implementation Schedule"
+          ],
+          "keywords": ["planning", "QMS planning", "modifications", "implementation"],
+          "related_procedures": ["PROC_5_4_1", "PROC_4_1_4"],
+          "regulatory_references": ["ISO 13485:2016 Section 5.4.2"]
+        },
+        {
+          "proc_id": "PROC_5_5_1",
+          "title": "Responsibility and Authority Definition",
+          "requirement": "5.5.1",
+          "what_is_required": "Management must ensure responsibilities and authorities are defined, documented, and communicated; document links between people managing/performing quality-affecting work and ensure necessary autonomy/authority",
+          "requirement_details": [
+            "Define responsibilities and authorities",
+            "Document responsibilities and authorities",
+            "Communicate to organization",
+            "Document relationships between quality workers",
+            "Ensure necessary autonomy and authority"
+          ],
+          "implementation_steps": [
+            "1. Create organizational chart",
+            "2. Define role descriptions",
+            "3. Document authority levels",
+            "4. Define escalation paths",
+            "5. Communicate structure",
+            "6. Update documentation"
+          ],
+          "responsibilities": ["HR", "Quality Manager"],
+          "documentation_needed": [
+            "Organizational Chart",
+            "Job Descriptions",
+            "Authority Matrix",
+            "RACI Chart"
+          ],
+          "examples": "Quality Manager has authority to halt production, reject materials, and approve deviations; Manufacturing Manager cannot override quality decisions",
+          "keywords": ["responsibility", "authority", "roles", "organizational structure"],
+          "related_procedures": ["PROC_5_5_2", "PROC_6_2"],
+          "regulatory_references": ["ISO 13485:2016 Section 5.5.1"]
+        },
+        {
+          "proc_id": "PROC_5_5_2",
+          "title": "Management Representative Designation",
+          "requirement": "5.5.2",
+          "what_is_required": "Designate a management member with responsibility and authority to: ensure quality management processes are documented; report QMS effectiveness to management; ensure regulatory requirement awareness throughout organization",
+          "representative_responsibilities": [
+            "Ensure necessary QMS processes are documented",
+            "Report QMS effectiveness and improvement needs to management",
+            "Ensure regulatory requirement awareness throughout organization"
+          ],
+          "implementation_steps": [
+            "1. Identify suitable management member",
+            "2. Define specific responsibilities",
+            "3. Grant necessary authority",
+            "4. Document designation",
+            "5. Communicate to organization",
+            "6. Provide necessary support"
+          ],
+          "responsibilities": ["Top Management", "Designated Representative"],
+          "documentation_needed": [
+            "Designation Letter",
+            "Job Description",
+            "Responsibility Matrix"
+          ],
+          "examples": "Quality Assurance Director appointed as Management Representative with direct report to CEO and authority to allocate QMS resources",
+          "keywords": ["management representative", "QMS authority", "oversight"],
+          "related_procedures": ["PROC_5_5_1", "PROC_5_6"],
+          "regulatory_references": ["ISO 13485:2016 Section 5.5.2"]
+        },
+        {
+          "proc_id": "PROC_5_5_3",
+          "title": "Internal Communication Management",
+          "requirement": "5.5.3",
+          "what_is_required": "Management must ensure appropriate communication processes are established and QMS effectiveness communication takes place",
+          "communication_requirements": [
+            "Establish communication processes",
+            "Ensure QMS effectiveness communication occurs"
+          ],
+          "implementation_steps": [
+            "1. Identify communication needs",
+            "2. Select communication methods",
+            "3. Define communication schedule",
+            "4. Identify stakeholders",
+            "5. Implement channels",
+            "6. Monitor effectiveness"
+          ],
+          "communication_methods": [
+            "Team meetings",
+            "Email bulletins",
+            "Intranet postings",
+            "Training sessions",
+            "Notice boards",
+            "One-on-one discussions"
+          ],
+          "responsibilities": ["Management", "All Personnel"],
+          "documentation_needed": [
+            "Communication Plan",
+            "Meeting Minutes",
+            "Distribution Records"
+          ],
+          "examples": "Weekly quality meetings, monthly management briefings, quarterly all-hands meetings discussing QMS effectiveness",
+          "keywords": ["communication", "internal communication", "effectiveness"],
+          "related_procedures": ["PROC_5_5_1", "PROC_6_2"],
+          "regulatory_references": ["ISO 13485:2016 Section 5.5.3"]
+        },
+        {
+          "proc_id": "PROC_5_6_1",
+          "title": "Management Review Procedure and Frequency",
+          "requirement": "5.6.1",
+          "what_is_required": "Document procedures for management review; conduct reviews at planned documented intervals to ensure QMS remains appropriate, adequate and effective; include improvement evaluation and system modification needs",
+          "review_requirements": [
+            "Document management review procedures",
+            "Conduct at planned documented intervals",
+            "Ensure QMS is appropriate, adequate and effective",
+            "Evaluate improvement opportunities",
+            "Assess modification needs"
+          ],
+          "implementation_steps": [
+            "1. Document review procedure",
+            "2. Establish review schedule (e.g., quarterly)",
+            "3. Define review inputs",
+            "4. Assign review participants",
+            "5. Prepare agenda and materials",
+            "6. Conduct review meeting",
+            "7. Document results"
+          ],
+          "responsibilities": ["Top Management", "Review Team"],
+          "documentation_needed": [
+            "Management Review Procedure",
+            "Review Schedule",
+            "Review Meeting Minutes",
+            "Action Plans"
+          ],
+          "examples": "Quarterly management review held second Friday of each quarter, attended by CEO, Quality Manager, Production Manager, and Engineering Manager",
+          "keywords": ["management review", "effectiveness", "improvement", "periodic"],
+          "related_procedures": ["PROC_5_6_2", "PROC_5_6_3"],
+          "regulatory_references": ["ISO 13485:2016 Section 5.6.1"]
+        },
+        {
+          "proc_id": "PROC_5_6_2",
+          "title": "Management Review Input Elements",
+          "requirement": "5.6.2",
+          "what_is_required": "Management review input must include information from: feedback, complaint handling, regulatory authority reporting, audits, process monitoring, product monitoring, corrective/preventive actions, previous review actions, changes affecting QMS, and new/revised regulatory requirements",
+          "input_sources": [
+            "Feedback information",
+            "Complaint handling results",
+            "Regulatory authority reporting",
+            "Internal audit results",
+            "Process monitoring and measurement",
+            "Product monitoring and measurement",
+            "Corrective actions",
+            "Preventive actions",
+            "Previous review actions",
+            "Changes affecting QMS",
+            "New or revised regulatory requirements"
+          ],
+          "implementation_steps": [
+            "1. Gather data from all sources",
+            "2. Consolidate information",
+            "3. Analyze trends",
+            "4. Identify issues and opportunities",
+            "5. Prepare for review meeting",
+            "6. Present comprehensive analysis"
+          ],
+          "responsibilities": ["Quality Manager", "Data Collectors"],
+          "documentation_needed": [
+            "Data Collection Templates",
+            "Summary Reports",
+            "Trend Analysis Charts"
+          ],
+          "examples": "Review input includes: 50 customer compliments, 2 complaints resolved, 0 regulatory issues, 95% audit conformance, 98% on-time delivery",
+          "keywords": ["review input", "data sources", "performance data"],
+          "related_procedures": ["PROC_5_6_1", "PROC_5_6_3"],
+          "regulatory_references": ["ISO 13485:2016 Section 5.6.2"]
+        },
+        {
+          "proc_id": "PROC_5_6_3",
+          "title": "Management Review Output and Decisions",
+          "requirement": "5.6.3",
+          "what_is_required": "Record management review outputs including: reviewed inputs, decisions/actions on: necessary improvements, product improvement per customer requirements, regulatory requirement changes, and resource needs",
+          "output_requirements": [
+            "Record reviewed inputs",
+            "Document decisions on QMS improvements",
+            "Document decisions on product improvements",
+            "Document decisions on regulatory requirement changes",
+            "Document resource needs decisions"
+          ],
+          "implementation_steps": [
+            "1. Document all review inputs reviewed",
+            "2. Record decisions made",
+            "3. Define action items",
+            "4. Assign responsibilities",
+            "5. Set due dates",
+            "6. Track implementation",
+            "7. Verify effectiveness"
+          ],
+          "responsibilities": ["Top Management", "Quality Manager"],
+          "documentation_needed": [
+            "Management Review Record",
+            "Action Item List",
+            "Follow-up Documentation"
+          ],
+          "examples": "Review output: Approved new supplier approval procedure, allocated budget for calibration equipment, implemented customer feedback system, scheduled regulatory compliance training",
+          "keywords": ["review output", "decisions", "improvements", "actions"],
+          "related_procedures": ["PROC_5_6_1", "PROC_5_6_2"],
+          "regulatory_references": ["ISO 13485:2016 Section 5.6.3"]
+        }
+      ]
+    },
+
+    {
+      "section_id": "6",
+      "section_name": "Management des ressources (Resource Management)",
+      "description": "Personnel, infrastructure, and work environment requirements",
+      "procedures": [
+        {
+          "proc_id": "PROC_6_1",
+          "title": "Resource Provision and Availability",
+          "requirement": "6.1",
+          "what_is_required": "Organization must determine and provide resources necessary to: implement QMS and maintain its effectiveness; satisfy applicable regulatory requirements and customer requirements",
+          "resource_categories": [
+            "Human resources",
+            "Financial resources",
+            "Infrastructure",
+            "Equipment",
+            "Technology/IT",
+            "Environmental conditions"
+          ],
+          "implementation_steps": [
+            "1. Identify resource needs",
+            "2. Assess current resources",
+            "3. Determine gaps",
+            "4. Develop resource plan",
+            "5. Allocate budget",
+            "6. Implement resources",
+            "7. Monitor adequacy"
+          ],
+          "responsibilities": ["Management", "Department Heads"],
+          "documentation_needed": [
+            "Resource Plan",
+            "Budget Allocation",
+            "Resource Inventory"
+          ],
+          "keywords": ["resources", "provision", "adequacy"],
+          "related_procedures": ["PROC_6_2", "PROC_6_3"],
+          "regulatory_references": ["ISO 13485:2016 Section 6.1"]
+        },
+        {
+          "proc_id": "PROC_6_2",
+          "title": "Human Resources Competency Management",
+          "requirement": "6.2",
+          "what_is_required": "Personnel performing quality-affecting work must be competent based on education, training, skill and experience; document processes to define competencies, provide training, ensure awareness",
+          "competency_requirements": [
+            "Define necessary competencies",
+            "Provide necessary training",
+            "Evaluate training effectiveness",
+            "Ensure personnel awareness of activities relevance and quality objective contribution",
+            "Maintain training records"
+          ],
+          "implementation_steps": [
+            "1. Identify quality-affecting roles",
+            "2. Define competency requirements",
+            "3. Assess current competencies",
+            "4. Develop training plans",
+            "5. Provide training",
+            "6. Evaluate effectiveness",
+            "7. Maintain records"
+          ],
+          "training_types": [
+            "Initial training",
+            "Job-specific training",
+            "Quality awareness training",
+            "Regulatory training",
+            "Refresher training",
+            "Continuing education"
+          ],
+          "responsibilities": ["HR", "Training Coordinator", "Managers"],
+          "documentation_needed": [
+            "Competency Matrix",
+            "Training Plans",
+            "Training Records",
+            "Competency Assessments"
+          ],
+          "examples": "Manufacturing technician: Initial training on machine operation, SOP compliance, quality procedures, GMP principles; Annual refresher training; Competency verified quarterly",
+          "keywords": ["competency", "training", "personnel", "human resources"],
+          "related_procedures": ["PROC_6_1", "PROC_8_2_4"],
+          "regulatory_references": ["ISO 13485:2016 Section 6.2"]
+        },
+        {
+          "proc_id": "PROC_6_3",
+          "title": "Infrastructure Requirements and Maintenance",
+          "requirement": "6.3",
+          "what_is_required": "Document infrastructure requirements necessary for product conformity; prevent product mixing; ensure orderly handling; document maintenance requirements including maintenance intervals when affecting product quality",
+          "infrastructure_elements": [
+            "Buildings and workspaces",
+            "Facilities and utilities",
+            "Software/hardware systems",
+            "Communication systems",
+            "Transportation systems",
+            "Logistics support"
+          ],
+          "maintenance_requirements": [
+            "Define maintenance activities",
+            "Define maintenance intervals",
+            "Document maintenance procedures",
+            "Keep maintenance records",
+            "Apply to: production equipment, environmental control, monitoring/measurement equipment"
+          ],
+          "implementation_steps": [
+            "1. Document infrastructure requirements",
+            "2. Inventory infrastructure items",
+            "3. Assess condition",
+            "4. Define maintenance intervals",
+            "5. Establish maintenance schedule",
+            "6. Perform maintenance",
+            "7. Record maintenance"
+          ],
+          "responsibilities": ["Facilities Manager", "Equipment Owners"],
+          "documentation_needed": [
+            "Infrastructure Requirements Document",
+            "Maintenance Schedule",
+            "Maintenance Records",
+            "Equipment List"
+          ],
+          "examples": "Manufacturing equipment: Scheduled maintenance every 250 hours, calibration every 6 months; Environmental monitoring: Temperature recorded daily; HVAC serviced quarterly",
+          "keywords": ["infrastructure", "maintenance", "facilities", "equipment"],
+          "related_procedures": ["PROC_6_1", "PROC_7_6"],
+          "regulatory_references": ["ISO 13485:2016 Section 6.3"]
+        },
+        {
+          "proc_id": "PROC_6_4_1",
+          "title": "Work Environment Control",
+          "requirement": "6.4.1",
+          "what_is_required": "Document work environment requirements necessary for product conformity; when environmental conditions can negatively impact product quality, document requirements and monitoring/control procedures; document health, cleanliness and clothing requirements when personnel contact affects device safety/performance",
+          "environment_aspects": [
+            "Temperature and humidity",
+            "Cleanliness levels",
+            "Contamination control",
+            "Noise levels",
+            "Lighting conditions",
+            "Vibration control",
+            "Personnel health and hygiene",
+            "Personnel clothing and PPE"
+          ],
+          "implementation_steps": [
+            "1. Identify environmental impacts",
+            "2. Define requirements",
+            "3. Select monitoring methods",
+            "4. Establish control measures",
+            "5. Implement procedures",
+            "6. Monitor and record",
+            "7. Maintain records"
+          ],
+          "responsibilities": ["Facilities", "Quality", "Supervisors"],
+          "documentation_needed": [
+            "Environmental Requirements",
+            "Monitoring Plans",
+            "Monitoring Records",
+            "Control Procedures"
+          ],
+          "examples": "Clean room: Class 7 per ISO 14644; temperature 20-24°C, humidity 45-55%; personnel: medical examination, training, proper gowning; daily environmental monitoring recorded",
+          "keywords": ["environment", "work environment", "conditions", "cleanliness"],
+          "related_procedures": ["PROC_6_4_2", "PROC_7_5_2"],
+          "regulatory_references": ["ISO 13485:2016 Section 6.4.1"]
+        },
+        {
+          "proc_id": "PROC_6_4_2",
+          "title": "Contamination Control",
+          "requirement": "6.4.2",
+          "what_is_required": "When appropriate, plan and document special provisions for contaminated or potentially contaminated product control to prevent environment, personnel or product contamination; for sterile devices, document microorganism/particle contamination control requirements and maintain required cleanliness during assembly/packaging",
+          "contamination_control": [
+            "Identify contamination sources",
+            "Establish contamination prevention measures",
+            "Define contamination handling procedures",
+            "Implement segregation controls",
+            "Monitor contamination levels",
+            "Document contamination control records"
+          ],
+          "sterile_device_requirements": [
+            "Microorganism contamination control",
+            "Particle contamination control",
+            "Cleanliness maintenance during assembly",
+            "Cleanliness maintenance during packaging",
+            "Environmental monitoring"
+          ],
+          "implementation_steps": [
+            "1. Assess contamination risk",
+            "2. Define control measures",
+            "3. Establish segregation areas",
+            "4. Implement monitoring",
+            "5. Train personnel",
+            "6. Document procedures",
+            "7. Keep records"
+          ],
+          "responsibilities": ["Quality", "Manufacturing", "Facilities"],
+          "documentation_needed": [
+            "Contamination Control Procedure",
+            "Environmental Monitoring Data",
+            "Contamination Incident Records"
+          ],
+          "examples": "Sterile device packaging: ISO Class 5 environment, particle counts <352 particles/m³; daily monitoring; any particle levels >threshold triggers investigation and corrective action",
+          "keywords": ["contamination", "contamination control", "sterile", "environment"],
+          "related_procedures": ["PROC_6_4_1", "PROC_7_5_5"],
+          "regulatory_references": ["ISO 13485:2016 Section 6.4.2"]
+        }
+      ]
+    },
+
+    {
+      "section_id": "7",
+      "section_name": "Réalisation du produit (Product Realization)",
+      "description": "Core product/service creation processes from planning through post-delivery",
+      "procedures": [
+        {
+          "proc_id": "PROC_7_1",
+          "title": "Product Realization Planning",
+          "requirement": "7.1",
+          "what_is_required": "Plan and develop necessary processes for product realization; ensure planning is consistent with other QMS requirements; document risk management processes; determine quality objectives, processes, resources, verification/validation/monitoring/testing/acceptance criteria, records",
+          "planning_requirements": [
+            "Plan product realization processes",
+            "Ensure consistency with QMS",
+            "Document risk management processes",
+            "Determine quality objectives and product requirements",
+            "Establish necessary processes",
+            "Identify resources needed",
+            "Define verification activities",
+            "Define validation activities",
+            "Define acceptance criteria",
+            "Maintain records"
+          ],
+          "implementation_steps": [
+            "1. Review product requirements",
+            "2. Assess risks",
+            "3. Perform risk analysis",
+            "4. Develop risk mitigation",
+            "5. Plan manufacturing processes",
+            "6. Define control points",
+            "7. Identify resource needs",
+            "8. Establish quality criteria"
+          ],
+          "responsibilities": ["Quality Engineer", "Product Manager", "Operations"],
+          "documentation_needed": [
+            "Product Realization Plan",
+            "Risk Assessment",
+            "Manufacturing Process Plan",
+            "Verification/Validation Plan"
+          ],
+          "examples": "Product realization plan for implantable device includes: design validation protocol, biocompatibility testing, sterilization validation, stability study, clinical data",
+          "keywords": ["product realization", "planning", "risk management", "verification"],
+          "related_procedures": ["PROC_7_2", "PROC_7_3"],
+          "regulatory_references": ["ISO 13485:2016 Section 7.1"]
+        },
+        {
+          "proc_id": "PROC_7_2_1",
+          "title": "Product Requirement Determination",
+          "requirement": "7.2.1",
+          "what_is_required": "Determine: customer-specified requirements including delivery/post-delivery activities; requirements not stated but necessary for specified use; applicable regulatory requirements; user training necessary for specified performance and safe use; additional organization-determined requirements",
+          "requirement_categories": [
+            "Customer-specified requirements",
+            "Implied requirements for intended use",
+            "Regulatory requirements",
+            "Training requirements",
+            "Organization-determined requirements"
+          ],
+          "implementation_steps": [
+            "1. Document customer requirements",
+            "2. Clarify ambiguous requirements",
+            "3. Identify regulations applicable",
+            "4. Determine use environment",
+            "5. Identify safety requirements",
+            "6. Define performance criteria",
+            "7. Document all requirements"
+          ],
+          "responsibilities": ["Sales", "Quality", "Engineering"],
+          "documentation_needed": [
+            "Customer Requirements",
+            "Specification",
+            "Requirements Matrix",
+            "Regulatory Checklist"
+          ],
+          "examples": "Insulin pump requirements: customer specifies flow rate ±2% accuracy; implied: biocompatibility, sterility for implantable parts; regulatory: FDA 510(k) requirements; training: user manual for patient operation",
+          "keywords": ["product requirements", "determination", "customer", "regulatory"],
+          "related_procedures": ["PROC_7_2_2", "PROC_7_2_3"],
+          "regulatory_references": ["ISO 13485:2016 Section 7.2.1"]
+        },
+        {
+          "proc_id": "PROC_7_2_2",
+          "title": "Product Requirement Review",
+          "requirement": "7.2.2",
+          "what_is_required": "Review product requirements before committing to supply (e.g., bid submission, contract acceptance, order acceptance); ensure: requirements are defined/documented, no conflicts with prior requirements, regulatory requirements satisfied, user training available/planned, organization can meet requirements; maintain review records",
+          "review_scope": [
+            "All customer-specified requirements",
+            "Implied requirements",
+            "Regulatory requirements",
+            "Training requirements",
+            "Organization capability"
+          ],
+          "review_criteria": [
+            "Requirements clearly defined",
+            "No conflicts with previous requirements",
+            "Regulatory requirements addressed",
+            "Organization capacity sufficient",
+            "Timeline feasible",
+            "Cost acceptable"
+          ],
+          "implementation_steps": [
+            "1. Receive customer requirements",
+            "2. Review completeness",
+            "3. Verify regulatory compliance",
+            "4. Assess organizational capability",
+            "5. Check resource availability",
+            "6. Identify risks",
+            "7. Approve or negotiate",
+            "8. Document review"
+          ],
+          "responsibilities": ["Quality Engineer", "Sales Manager", "Technical Director"],
+          "documentation_needed": [
+            "Review Checklist",
+            "Review Record",
+            "Approval Form",
+            "Negotiation Records"
+          ],
+          "examples": "Customer request for device in new material: Review confirms biocompatibility data available, manufacturing capability exists, timeline feasible, approved with procurement of new material and validation testing",
+          "keywords": ["requirement review", "approval", "compliance", "capability"],
+          "related_procedures": ["PROC_7_2_1", "PROC_7_3_1"],
+          "regulatory_references": ["ISO 13485:2016 Section 7.2.2"]
+        },
+        {
+          "proc_id": "PROC_7_2_3",
+          "title": "Customer Communication",
+          "requirement": "7.2.3",
+          "what_is_required": "Plan and document customer communication arrangements about: product information, inquiry/contract/order handling including modifications, customer feedback including complaints, warning notices; communicate with regulatory authorities per regulatory requirements",
+          "communication_topics": [
+            "Product information",
+            "Inquiry handling",
+            "Contract/order processing",
+            "Order modifications",
+            "Customer feedback",
+            "Complaint handling",
+            "Warning notice distribution"
+          ],
+          "implementation_steps": [
+            "1. Identify communication needs",
+            "2. Determine communication channels",
+            "3. Define contact procedures",
+            "4. Establish complaint process",
+            "5. Implement feedback system",
+            "6. Document procedures",
+            "7. Train personnel"
+          ],
+          "communication_channels": [
+            "Email",
+            "Telephone",
+            "Fax",
+            "Online portal",
+            "In-person meetings",
+            "Written correspondence"
+          ],
+          "responsibilities": ["Customer Service", "Quality", "Regulatory Affairs"],
+          "documentation_needed": [
+            "Communication Plan",
+            "Contact Procedures",
+            "Feedback Forms",
+            "Distribution Lists"
+          ],
+          "examples": "Communication plan: Product info via website/brochures, orders via online portal/phone, feedback via email/phone, complaints via dedicated hotline, regulatory updates via registered mail",
+          "keywords": ["customer communication", "feedback", "complaints", "information"],
+          "related_procedures": ["PROC_7_2_1", "PROC_8_2_2"],
+          "regulatory_references": ["ISO 13485:2016 Section 7.2.3"]
+        }
+      ]
+    },
+
+    {
+      "section_id": "8",
+      "section_name": "Mesurage, analyse et amélioration (Measurement, Analysis and Improvement)",
+      "description": "Monitoring, feedback, analysis, and continuous improvement",
+      "procedures": [
+        {
+          "proc_id": "PROC_8_1",
+          "title": "Monitoring, Measurement, Analysis and Improvement Planning",
+          "requirement": "8.1",
+          "what_is_required": "Plan and implement necessary monitoring, measurement, analysis and improvement processes to: demonstrate product conformity, ensure QMS conformity, maintain QMS effectiveness; determine appropriate methods including statistical techniques and extent of use",
+          "process_requirements": [
+            "Monitor product conformity",
+            "Measure QMS conformity",
+            "Monitor QMS effectiveness",
+            "Determine appropriate methods",
+            "Use statistical techniques when applicable",
+            "Analyze effectiveness"
+          ],
+          "implementation_steps": [
+            "1. Identify monitoring/measurement needs",
+            "2. Define KPIs",
+            "3. Select measurement methods",
+            "4. Establish monitoring schedule",
+            "5. Train personnel",
+            "6. Implement monitoring",
+            "7. Analyze results",
+            "8. Take improvement actions"
+          ],
+          "measurement_methods": [
+            "Testing and inspection",
+            "Data collection",
+            "Statistical analysis",
+            "Trend analysis",
+            "Benchmarking",
+            "Audit findings"
+          ],
+          "responsibilities": ["Quality", "Data Analysis Team"],
+          "documentation_needed": [
+            "Monitoring Plan",
+            "KPI Definition",
+            "Measurement Procedures",
+            "Analysis Records"
+          ],
+          "keywords": ["monitoring", "measurement", "analysis", "improvement"],
+          "related_procedures": ["PROC_8_2", "PROC_8_4", "PROC_8_5"],
+          "regulatory_references": ["ISO 13485:2016 Section 8.1"]
+        },
+        {
+          "proc_id": "PROC_8_2_1",
+          "title": "Customer Feedback and Satisfaction Monitoring",
+          "requirement": "8.2.1",
+          "what_is_required": "Collect and monitor customer information regarding level of satisfaction with organization as measure of QMS effectiveness; document methods to obtain/use information; document feedback process including production and post-production data collection",
+          "feedback_components": [
+            "Customer satisfaction data",
+            "Product performance feedback",
+            "Service feedback",
+            "Compliance feedback",
+            "Production data",
+            "Post-production data"
+          ],
+          "implementation_steps": [
+            "1. Define feedback methods",
+            "2. Develop feedback forms",
+            "3. Establish collection schedule",
+            "4. Communicate feedback importance",
+            "5. Collect feedback",
+            "6. Analyze responses",
+            "7. Take improvement actions",
+            "8. Report results"
+          ],
+          "feedback_methods": [
+            "Surveys",
+            "Interviews",
+            "Focus groups",
+            "Online portals",
+            "Suggestion boxes",
+            "Sales data"
+          ],
+          "responsibilities": ["Quality", "Sales/Marketing"],
+          "documentation_needed": [
+            "Feedback Forms",
+            "Survey Results",
+            "Analysis Reports",
+            "Action Plans"
+          ],
+          "examples": "Annual customer satisfaction survey with 90% response rate; questions on product quality, delivery, service; results analyzed by product line; improvement actions tracked",
+          "keywords": ["feedback", "customer satisfaction", "monitoring", "satisfaction measurement"],
+          "related_procedures": ["PROC_8_2_2", "PROC_8_4"],
+          "regulatory_references": ["ISO 13485:2016 Section 8.2.1"]
+        },
+        {
+          "proc_id": "PROC_8_2_2",
+          "title": "Complaint Management and Handling",
+          "requirement": "8.2.2",
+          "what_is_required": "Document procedures for complaint handling in appropriate timeframe per regulatory requirements; define requirements/responsibilities for: receipt/recording, evaluation to determine if complaint, complaint analysis, determination of regulatory reporting necessity, product treatment, correction/corrective action necessity; maintain complaint records",
+          "complaint_handling_steps": [
+            "Receipt and recording of information",
+            "Evaluation to determine if complaint",
+            "Complaint analysis",
+            "Determine regulatory reporting necessity",
+            "Product handling determination",
+            "Correction/corrective action determination",
+            "Documentation of all actions"
+          ],
+          "implementation_steps": [
+            "1. Establish complaint receipt process",
+            "2. Create complaint form",
+            "3. Assign complaint number",
+            "4. Evaluate complaint validity",
+            "5. Investigate root cause",
+            "6. Assess impact",
+            "7. Determine actions",
+            "8. Document results",
+            "9. Report if necessary",
+            "10. Follow up with customer"
+          ],
+          "responsibilities": ["Quality Manager", "Complaint Handler", "Engineering"],
+          "documentation_needed": [
+            "Complaint Form",
+            "Investigation Report",
+            "Corrective Action Report",
+            "Regulatory Report (if applicable)"
+          ],
+          "examples": "Customer complains device not sterile: Complaint logged same day, investigation launched, batch traced, sterility testing performed, root cause identified (packaging integrity), corrective action implemented, customer notified",
+          "keywords": ["complaint", "complaint handling", "investigation", "management"],
+          "related_procedures": ["PROC_8_2_1", "PROC_8_3_3", "PROC_8_5_2"],
+          "regulatory_references": ["ISO 13485:2016 Section 8.2.2"]
+        },
+        {
+          "proc_id": "PROC_8_2_3",
+          "title": "Regulatory Authority Reporting",
+          "requirement": "8.2.3",
+          "what_is_required": "When applicable regulatory requirements require notification of complaints meeting specified criteria, adverse events, or warning notice distribution, document procedures to provide notification to appropriate regulatory authorities",
+          "reporting_situations": [
+            "Serious adverse events",
+            "Unexpected adverse reactions",
+            "Device malfunctions",
+            "Safety issues",
+            "Serious injuries",
+            "Deaths potentially related to device"
+          ],
+          "implementation_steps": [
+            "1. Establish regulatory contacts",
+            "2. Understand regulatory requirements",
+            "3. Define reporting triggers",
+            "4. Create reporting template",
+            "5. Establish approval process",
+            "6. Define timeframes",
+            "7. Document reports",
+            "8. Maintain records"
+          ],
+          "responsibilities": ["Regulatory Affairs", "Quality Manager"],
+          "documentation_needed": [
+            "Regulatory Authority Contacts",
+            "Reporting Procedures",
+            "Report Templates",
+            "Submitted Reports"
+          ],
+          "examples": "FDA MedWatch: Device causes hospitalization, reported to FDA within 15 days including device details, patient information, and company investigation findings",
+          "keywords": ["regulatory reporting", "adverse events", "MedWatch", "FDA"],
+          "related_procedures": ["PROC_8_2_2", "PROC_8_3_3"],
+          "regulatory_references": ["ISO 13485:2016 Section 8.2.3"]
+        },
+        {
+          "proc_id": "PROC_8_2_4",
+          "title": "Internal Audit Procedure",
+          "requirement": "8.2.4",
+          "what_is_required": "Conduct internal audits at planned intervals to determine if QMS: conforms to planned arrangements, standard requirements, organization requirements, regulatory requirements; is effectively implemented/maintained; document audit procedures, auditor selection/conduct, criteria, scope, interval, methods; record audit results, conclusions; ensure management takes necessary corrective action",
+          "audit_requirements": [
+            "Determine QMS conformity to standard",
+            "Determine effective implementation",
+            "Determine effective maintenance",
+            "Assess conformity to regulatory requirements",
+            "Maintain audit records",
+            "Ensure corrective action"
+          ],
+          "implementation_steps": [
+            "1. Develop audit procedure",
+            "2. Create audit plan",
+            "3. Select auditors",
+            "4. Train auditors",
+            "5. Prepare audit checklist",
+            "6. Conduct audit",
+            "7. Document findings",
+            "8. Report results",
+            "9. Track corrective action"
+          ],
+          "audit_frequency": [
+            "Critical processes: quarterly",
+            "Important processes: semi-annually",
+            "Other processes: annually"
+          ],
+          "responsibilities": ["Audit Manager", "Auditors", "Department Heads"],
+          "documentation_needed": [
+            "Audit Procedure",
+            "Annual Audit Plan",
+            "Audit Checklist",
+            "Audit Report",
+            "Corrective Action Records"
+          ],
+          "examples": "Quarterly audit of manufacturing: Check equipment maintenance, personnel training, document control, product traceability, and corrective action closure; results shared with management",
+          "keywords": ["internal audit", "audit", "compliance", "QMS assessment"],
+          "related_procedures": ["PROC_8_2_5", "PROC_5_6_2"],
+          "regulatory_references": ["ISO 13485:2016 Section 8.2.4"]
+        },
+        {
+          "proc_id": "PROC_8_2_5",
+          "title": "Process Monitoring and Measurement",
+          "requirement": "8.2.5",
+          "what_is_required": "Use appropriate methods to monitor and, when applicable, measure QMS processes; methods must demonstrate process capability to achieve planned results; when planned results not achieved, implement corrections and corrective actions",
+          "monitoring_approach": [
+            "Define process KPIs",
+            "Monitor process parameters",
+            "Measure process outputs",
+            "Analyze process performance",
+            "Compare to targets",
+            "Implement improvements"
+          ],
+          "implementation_steps": [
+            "1. Define process KPIs",
+            "2. Set performance targets",
+            "3. Establish monitoring frequency",
+            "4. Collect data",
+            "5. Analyze performance",
+            "6. Compare to targets",
+            "7. Implement actions if needed",
+            "8. Document results"
+          ],
+          "monitoring_tools": [
+            "Control charts",
+            "Trend analysis",
+            "Performance dashboards",
+            "Metrics tracking",
+            "Variance analysis"
+          ],
+          "responsibilities": ["Process Owner", "Quality Team"],
+          "documentation_needed": [
+            "Process Metrics",
+            "Monitoring Records",
+            "Control Charts",
+            "Analysis Reports"
+          ],
+          "examples": "Manufacturing process: Monitor defect rate daily, yield weekly, on-time delivery monthly; if defect rate >0.5%, trigger investigation and corrective action",
+          "keywords": ["process measurement", "monitoring", "performance", "metrics"],
+          "related_procedures": ["PROC_8_2_6", "PROC_8_5_2"],
+          "regulatory_references": ["ISO 13485:2016 Section 8.2.5"]
+        },
+        {
+          "proc_id": "PROC_8_2_6",
+          "title": "Product Monitoring and Measurement",
+          "requirement": "8.2.6",
+          "what_is_required": "Monitor and measure product characteristics to verify requirement satisfaction; perform at applicable product realization stages per planned procedures; maintain conformance proof; record authorization person identity; when applicable, identify test equipment used; do not release product/service before satisfactory completion",
+          "measurement_points": [
+            "Incoming inspection",
+            "In-process testing",
+            "Final inspection",
+            "Sampling programs",
+            "Statistical evaluation"
+          ],
+          "implementation_steps": [
+            "1. Define testing requirements",
+            "2. Create test procedures",
+            "3. Select test equipment",
+            "4. Establish acceptance criteria",
+            "5. Train operators",
+            "6. Perform testing",
+            "7. Record results",
+            "8. Document authorization"
+          ],
+          "responsibilities": ["Quality Inspector", "Test Technician", "Supervisor"],
+          "documentation_needed": [
+            "Test Procedures",
+            "Inspection Records",
+            "Test Certificates",
+            "Approval Records"
+          ],
+          "examples": "Device production: Incoming material testing, dimension verification during assembly, sterility testing for final product, all results recorded and dated by authorized personnel",
+          "keywords": ["product measurement", "inspection", "testing", "quality verification"],
+          "related_procedures": ["PROC_7_5_1", "PROC_8_3"],
+          "regulatory_references": ["ISO 13485:2016 Section 8.2.6"]
+        },
+        {
+          "proc_id": "PROC_8_3_1",
+          "title": "Non-Conforming Product Control",
+          "requirement": "8.3.1",
+          "what_is_required": "Ensure non-conforming product is identified and controlled to prevent unintended use/delivery; document procedure for control measures, responsibilities/authorities for product identification, documentation, isolation, evaluation and treatment; evaluate non-conformity including need for expertise and notification of external party",
+          "control_components": [
+            "Identification of non-conformity",
+            "Documentation of non-conformity",
+            "Isolation of product",
+            "Evaluation of impact",
+            "Determination of necessary actions",
+            "Assessment of external party involvement",
+            "Documentation of decisions"
+          ],
+          "implementation_steps": [
+            "1. Detect non-conformity",
+            "2. Immediately segregate product",
+            "3. Document non-conformity",
+            "4. Perform investigation",
+            "5. Assess impact",
+            "6. Determine actions",
+            "7. Notify parties if needed",
+            "8. Document decisions"
+          ],
+          "responsibilities": ["Quality Inspector", "Quality Manager", "Supervisor"],
+          "documentation_needed": [
+            "Non-Conformance Report",
+            "Investigation Report",
+            "Disposition Decision",
+            "Action Records"
+          ],
+          "examples": "Device fails sterility test: Immediately segregated, investigation launched, root cause identified, batch quarantined, customer notification issued if any shipped",
+          "keywords": ["non-conformance", "non-conforming product", "control", "management"],
+          "related_procedures": ["PROC_8_3_2", "PROC_8_3_3"],
+          "regulatory_references": ["ISO 13485:2016 Section 8.3.1"]
+        },
+        {
+          "proc_id": "PROC_8_3_2",
+          "title": "Non-Conformity Actions Before Delivery",
+          "requirement": "8.3.2",
+          "what_is_required": "When non-conformity detected before delivery, treat product by: taking action to eliminate non-conformity, taking action to prevent original use, or authorizing use by waiver if justified, approved, and regulatory requirements satisfied",
+          "handling_options": [
+            "Rework to conform",
+            "Scrap product",
+            "Accept by deviation/waiver",
+            "Return to supplier",
+            "Downgrade/repurpose"
+          ],
+          "implementation_steps": [
+            "1. Evaluate rework feasibility",
+            "2. Assess cost-benefit",
+            "3. Determine disposition",
+            "4. If rework approved: perform and verify",
+            "5. If waiver approved: document justification",
+            "6. If scrap: document and destroy",
+            "7. Record disposition"
+          ],
+          "waiver_requirements": [
+            "Justification documented",
+            "Appropriate approval obtained",
+            "Regulatory requirements satisfied",
+            "Risk assessment performed"
+          ],
+          "responsibilities": ["Quality Manager", "Engineering", "Manufacturing Manager"],
+          "documentation_needed": [
+            "Rework Procedure (if applicable)",
+            "Deviation/Waiver Form",
+            "Risk Assessment",
+            "Approval Records"
+          ],
+          "examples": "Device dimension slightly out of tolerance: Assessment shows acceptable performance, deviation approved by engineering and quality, device released with documentation",
+          "keywords": ["non-conformity", "rework", "deviation", "waiver"],
+          "related_procedures": ["PROC_8_3_1", "PROC_8_5_2"],
+          "regulatory_references": ["ISO 13485:2016 Section 8.3.2"]
+        },
+        {
+          "proc_id": "PROC_8_3_3",
+          "title": "Non-Conformity Actions After Delivery",
+          "requirement": "8.3.3",
+          "what_is_required": "When non-conformity detected after delivery, take appropriate actions based on real/potential non-conformity effects; document procedures for warning notice distribution per regulatory requirements; ensure results achieved or implement corrections/corrective actions if not",
+          "post-delivery_actions": [
+            "Investigate non-conformity",
+            "Assess risk to patients",
+            "Determine recall necessity",
+            "Issue warning notice if required",
+            "Track customer notification",
+            "Monitor corrective action"
+          ],
+          "implementation_steps": [
+            "1. Receive complaint",
+            "2. Assess severity",
+            "3. Determine recall need",
+            "4. Prepare warning notice",
+            "5. Notify regulatory authorities",
+            "6. Notify customers",
+            "7. Track returns",
+            "8. Implement corrective action",
+            "9. Verify effectiveness"
+          ],
+          "warning_notice_content": [
+            "Device identification",
+            "Batch/lot numbers",
+            "Non-conformity description",
+            "Risk description",
+            "Recommended actions",
+            "Contact information"
+          ],
+          "responsibilities": ["Quality Manager", "Regulatory Affairs", "Customer Service"],
+          "documentation_needed": [
+            "Post-Market Report",
+            "Warning Notice",
+            "Regulatory Filings",
+            "Customer Communications",
+            "Return Records"
+          ],
+          "examples": "Device safety issue discovered: FDA notified, customer warning issued, device recalled, root cause corrected, design modified, new production validated, customers updated",
+          "keywords": ["post-market", "recall", "warning notice", "field action"],
+          "related_procedures": ["PROC_8_2_2", "PROC_8_2_3"],
+          "regulatory_references": ["ISO 13485:2016 Section 8.3.3"]
+        },
+        {
+          "proc_id": "PROC_8_3_4",
+          "title": "Rework and Reprocessing Control",
+          "requirement": "8.3.4",
+          "what_is_required": "Perform rework per documented procedures accounting for potential negative effects; procedures subject to same review/approval as initial procedures; after rework, verify product satisfies acceptance criteria/regulatory requirements",
+          "rework_requirements": [
+            "Document rework procedures",
+            "Evaluate potential negative effects",
+            "Procedures reviewed/approved",
+            "Equivalent to original procedures",
+            "Verification after rework",
+            "Compliance verification"
+          ],
+          "implementation_steps": [
+            "1. Define rework parameters",
+            "2. Establish rework method",
+            "3. Design process validation",
+            "4. Perform rework",
+            "5. Re-inspect/test",
+            "6. Verify compliance",
+            "7. Document results"
+          ],
+          "rework_types": [
+            "Dimensional rework",
+            "Surface rework",
+            "Assembly rework",
+            "Sterilization rework",
+            "Packaging rework"
+          ],
+          "responsibilities": ["Process Engineer", "Quality Inspector"],
+          "documentation_needed": [
+            "Rework Procedure",
+            "Rework Authorization",
+            "Rework Records",
+            "Verification Records"
+          ],
+          "examples": "Implant surface rework: Procedure reviewed and approved, coating reapplied, surface analysis repeated to confirm compliance, device re-sterilized and tested",
+          "keywords": ["rework", "reprocessing", "non-conforming", "correction"],
+          "related_procedures": ["PROC_8_3_1", "PROC_8_3_2"],
+          "regulatory_references": ["ISO 13485:2016 Section 8.3.4"]
+        },
+        {
+          "proc_id": "PROC_8_4",
+          "title": "Data Analysis and Evaluation",
+          "requirement": "8.4",
+          "what_is_required": "Document procedures to determine, collect and analyze appropriate data demonstrating QMS relevance, adequacy and effectiveness; include data from monitoring/measurement and other sources; include feedback, conformity data, process/product characteristics, trends, improvement opportunities; when data shows system not appropriate/adequate/effective, use for improvement per section 8.5",
+          "data_sources": [
+            "Customer feedback",
+            "Complaint data",
+            "Process monitoring",
+            "Product measurement",
+            "Audit findings",
+            "Supplier performance",
+            "Service reports",
+            "Post-market surveillance"
+          ],
+          "analysis_methods": [
+            "Trend analysis",
+            "Statistical analysis",
+            "Correlation analysis",
+            "Pareto analysis",
+            "Root cause analysis",
+            "Benchmarking"
+          ],
+          "implementation_steps": [
+            "1. Define data needs",
+            "2. Collect data",
+            "3. Verify data quality",
+            "4. Enter data system",
+            "5. Analyze data",
+            "6. Identify trends",
+            "7. Draw conclusions",
+            "8. Recommend actions"
+          ],
+          "responsibilities": ["Data Analyst", "Quality Manager"],
+          "documentation_needed": [
+            "Data Collection Plan",
+            "Analysis Procedure",
+            "Analysis Reports",
+            "Trend Charts"
+          ],
+          "examples": "Monthly data analysis shows complaint trend increasing; investigation reveals new supplier material variation; corrective action implemented: supplier quality agreement updated",
+          "keywords": ["data analysis", "analysis", "evaluation", "metrics"],
+          "related_procedures": ["PROC_8_4", "PROC_8_5_1"],
+          "regulatory_references": ["ISO 13485:2016 Section 8.4"]
+        },
+        {
+          "proc_id": "PROC_8_5_1",
+          "title": "Improvement Planning and Implementation",
+          "requirement": "8.5.1",
+          "what_is_required": "Identify and implement necessary modifications to ensure ongoing relevance, adequacy and effectiveness of QMS and medical device safety/performance using quality policy, objectives, audit results, post-market surveillance, data analysis, corrective/preventive actions, and management review",
+          "improvement_sources": [
+            "Audit findings",
+            "Customer feedback",
+            "Post-market data",
+            "Data analysis",
+            "Complaint trends",
+            "Regulatory changes",
+            "Technology advances",
+            "Process inefficiencies"
+          ],
+          "implementation_steps": [
+            "1. Identify improvement opportunity",
+            "2. Assess potential impact",
+            "3. Develop improvement plan",
+            "4. Allocate resources",
+            "5. Implement improvement",
+            "6. Monitor results",
+            "7. Verify effectiveness",
+            "8. Document results"
+          ],
+          "improvement_tools": [
+            "PDCA cycle",
+            "Root cause analysis",
+            "Kaizen",
+            "Lean methodology",
+            "Six Sigma"
+          ],
+          "responsibilities": ["Improvement Team", "Quality Manager"],
+          "documentation_needed": [
+            "Improvement Plan",
+            "Implementation Records",
+            "Effectiveness Verification"
+          ],
+          "examples": "Opportunity identified: Average lead time 8 weeks, customer needs 6 weeks; improvement team implements parallel processing, reduces lead time to 5 weeks, customer satisfied",
+          "keywords": ["improvement", "continuous improvement", "effectiveness", "modifications"],
+          "related_procedures": ["PROC_8_5_2", "PROC_8_5_3"],
+          "regulatory_references": ["ISO 13485:2016 Section 8.5.1"]
+        },
+        {
+          "proc_id": "PROC_8_5_2",
+          "title": "Corrective Action Procedure",
+          "requirement": "8.5.2",
+          "what_is_required": "Implement actions to eliminate non-conformity causes to prevent recurrence; all necessary corrective actions implemented promptly; proportionate to non-conformity effects; document procedure for: non-conformity review, root cause analysis, need assessment for corrective action, action planning/implementation/documentation, verification negative effects not introduced, corrective action effectiveness review",
+          "corrective_action_steps": [
+            "Review non-conformity",
+            "Determine causes",
+            "Assess correction need",
+            "Plan corrective action",
+            "Implement action",
+            "Verify negative effects not introduced",
+            "Review effectiveness"
+          ],
+          "implementation_steps": [
+            "1. Identify non-conformity",
+            "2. Perform investigation",
+            "3. Conduct root cause analysis",
+            "4. Evaluate correction need",
+            "5. Develop corrective action plan",
+            "6. Assign responsibility",
+            "7. Implement action",
+            "8. Verify effectiveness",
+            "9. Update documentation"
+          ],
+          "root_cause_tools": [
+            "5 Whys",
+            "Fishbone analysis",
+            "Fault tree analysis",
+            "Process analysis"
+          ],
+          "responsibilities": ["Quality Manager", "Corrective Action Team"],
+          "documentation_needed": [
+            "Corrective Action Request",
+            "Investigation Report",
+            "Corrective Action Plan",
+            "Implementation Records",
+            "Effectiveness Verification"
+          ],
+          "examples": "Defects traced to supplier change: Root cause analysis reveals new supplier material hardness variance; corrective action: update supplier specifications, require incoming testing, verify 3 good batches",
+          "keywords": ["corrective action", "CAPA", "root cause", "effectiveness"],
+          "related_procedures": ["PROC_8_3_2", "PROC_8_5_3"],
+          "regulatory_references": ["ISO 13485:2016 Section 8.5.2"]
+        },
+        {
+          "proc_id": "PROC_8_5_3",
+          "title": "Preventive Action Procedure",
+          "requirement": "8.5.3",
+          "what_is_required": "Determine actions to eliminate potential non-conformity causes to prevent occurrence; proportionate to effects; document procedure for: potential non-conformity determination, root cause analysis, need assessment for preventive action, action planning/implementation/documentation, verification negative effects not introduced, preventive action effectiveness review when applicable",
+          "preventive_action_steps": [
+            "Identify potential non-conformity",
+            "Analyze root causes",
+            "Assess prevention need",
+            "Plan preventive action",
+            "Implement action",
+            "Verify negative effects",
+            "Review effectiveness"
+          ],
+          "implementation_steps": [
+            "1. Monitor for potential issues",
+            "2. Identify risk areas",
+            "3. Perform risk analysis",
+            "4. Prioritize risks",
+            "5. Develop prevention plan",
+            "6. Implement preventive measures",
+            "7. Monitor effectiveness",
+            "8. Document lessons learned"
+          ],
+          "prevention_triggers": [
+            "Trend analysis indicating drift",
+            "New regulatory requirements",
+            "Technology obsolescence",
+            "Supplier changes",
+            "Design modifications",
+            "Industry best practices"
+          ],
+          "responsibilities": ["Process Owner", "Quality Manager"],
+          "documentation_needed": [
+            "Preventive Action Request",
+            "Risk Assessment",
+            "Prevention Plan",
+            "Implementation Records",
+            "Monitoring Records"
+          ],
+          "examples": "Trend analysis shows sterility testing samples increasing variability; preventive action: upgrade monitoring equipment, increase sample frequency, provide technician retraining",
+          "keywords": ["preventive action", "prevention", "risk assessment", "proactive"],
+          "related_procedures": ["PROC_8_5_2", "PROC_8_4"],
+          "regulatory_references": ["ISO 13485:2016 Section 8.5.3"]
+        }
+      ]
+    }
+  ],
+
+  "cross_reference_matrix": {
+    "design_control": {
+      "section": "7.3",
+      "related_sections": ["4.1", "7.1", "8.2", "8.3"],
+      "key_procedures": ["PROC_7_3_1", "PROC_7_3_2", "PROC_7_3_3", "PROC_7_3_4", "PROC_7_3_5"],
+      "regulatory_importance": "CRITICAL"
+    },
+    "complaint_handling": {
+      "section": "8.2.2",
+      "related_sections": ["7.2.3", "8.2.1", "8.2.3", "8.3"],
+      "key_procedures": ["PROC_8_2_2", "PROC_8_2_3", "PROC_8_3_3"],
+      "regulatory_importance": "CRITICAL"
+    },
+    "risk_management": {
+      "section": "7.1",
+      "related_sections": ["4.1", "7.3", "8.3"],
+      "key_procedures": ["PROC_7_1"],
+      "regulatory_importance": "HIGH"
+    }
+  },
+
+  "rag_training_data": [
+    {
+      "query_example": "What are the requirements for design control?",
+      "expected_answer": "Section 7.3 covers design and development with requirements for planning, input, output, review, verification, validation, transfer, and modification control",
+      "procedure_references": ["PROC_7_3_1", "PROC_7_3_2", "PROC_7_3_3"]
+    },
+    {
+      "query_example": "How should the organization handle customer complaints?",
+      "expected_answer": "Section 8.2.2 requires documented procedure for complaint handling including receipt, evaluation, analysis, regulatory reporting decision, product treatment, and corrective action determination",
+      "procedure_references": ["PROC_8_2_2"]
+    },
+    {
+      "query_example": "What documentation is required for the quality system?",
+      "expected_answer": "Section 4.2 requires quality manual, device file, documented procedures, and records per specific requirements",
+      "procedure_references": ["PROC_4_2_1", "PROC_4_2_2", "PROC_4_2_3"]
+    }
+  ],
+
+  "index": {
+    "alphabetical_procedures": [
+      "PROC_4_1_1", "PROC_4_1_2", "PROC_4_1_3", "PROC_4_1_4", "PROC_4_1_5", "PROC_4_1_6",
+      "PROC_4_2_1", "PROC_4_2_2", "PROC_4_2_3", "PROC_4_2_4", "PROC_4_2_5",
+      "PROC_5_1", "PROC_5_2", "PROC_5_3", "PROC_5_4_1", "PROC_5_4_2",
+      "PROC_5_5_1", "PROC_5_5_2", "PROC_5_5_3", "PROC_5_6_1", "PROC_5_6_2", "PROC_5_6_3",
+      "PROC_6_1", "PROC_6_2", "PROC_6_3", "PROC_6_4_1", "PROC_6_4_2",
+      "PROC_7_1", "PROC_7_2_1", "PROC_7_2_2", "PROC_7_2_3",
+      "PROC_8_1", "PROC_8_2_1", "PROC_8_2_2", "PROC_8_2_3", "PROC_8_2_4", "PROC_8_2_5", "PROC_8_2_6",
+      "PROC_8_3_1", "PROC_8_3_2", "PROC_8_3_3", "PROC_8_3_4",
+      "PROC_8_4", "PROC_8_5_1", "PROC_8_5_2", "PROC_8_5_3"
+    ],
+    "by_section": {
+      "1": ["Scope"],
+      "2": ["Normative References"],
+      "3": ["Terms and Definitions"],
+      "4": ["Quality Management System"],
+      "4.1": ["General Requirements"],
+      "4.2": ["Documentation Requirements"],
+      "5": ["Management Responsibility"],
+      "6": ["Resource Management"],
+      "7": ["Product Realization"],
+      "8": ["Measurement, Analysis and Improvement"]
+    }
+  },
+
+  "compliance_checklist": {
+    "critical_requirements": [
+      "QMS documentation established",
+      "Quality policy and objectives defined",
+      "Management review performed",
+      "Design control implemented",
+      "Complaint handling procedure",
+      "Corrective/preventive actions",
+      "Risk management process",
+      "Supplier management",
+      "Product validation"
+    ],
+    "high_importance": [
+      "Internal audit program",
+      "Personnel competency",
+      "Document control",
+      "Record management",
+      "Software validation",
+      "Traceability",
+      "Post-market surveillance"
+    ]
+  }
+}   
