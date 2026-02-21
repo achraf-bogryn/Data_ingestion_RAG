@@ -1,0 +1,493 @@
+{
+  "metadata": {
+    "standard": "ISO 13485:2016",
+    "title": "Medical devices — Quality management systems — Requirements for regulatory purposes",
+    "edition": "Third edition",
+    "publication_date": "2016-03-01",
+    "total_procedures": 45
+  },
+  "sections": [
+    {
+      "section_id": "4.1",
+      "section_name": "General Requirements",
+      "procedures": [
+        {
+          "proc_id": "PROC_4_1_1",
+          "title": "QMS Documentation and Implementation",
+          "requirement": "4.1.1",
+          "description": "Organization must document and maintain an effective QMS in accordance with standard requirements and applicable regulatory requirements",
+          "what_is_required": ["Document QMS and maintain its effectiveness", "Establish, implement and maintain all documented requirements", "Document organization role(s) under applicable regulatory requirements"],
+          "key_requirements": ["QMS documented", "QMS maintained", "Requirements established", "Roles documented"],
+          "implementation_steps": ["1. Define organizational roles", "2. Document all QMS procedures", "3. Establish documentation structure", "4. Ensure regulatory compliance", "5. Implement documented procedures"],
+          "responsibilities": ["Management", "QMS Representative"],
+          "documentation_needed": ["Quality Manual", "Organizational Role Documentation", "Regulatory Requirement Mapping"],
+          "examples": "Organization involved in device production must document its role as Manufacturer",
+          "keywords": ["QMS", "documentation", "requirements", "implementation", "establishment"],
+          "related_procedures": ["PROC_4_2_2", "PROC_5_1"]
+        },
+        {
+          "proc_id": "PROC_4_1_2",
+          "title": "Process Determination and Risk-Based Approach",
+          "requirement": "4.1.2",
+          "description": "Determine necessary QMS processes, apply risk-based approach, and define process sequence/interactions",
+          "what_is_required": ["Determine processes necessary for QMS", "Apply risk-based approach to process control", "Determine sequence and interaction of processes"],
+          "key_requirements": ["Process identification", "Risk assessment", "Interaction mapping", "Sequence definition"],
+          "implementation_steps": ["1. Identify all QMS processes", "2. Map process interactions", "3. Perform risk assessment", "4. Define control measures", "5. Document process sequence"],
+          "responsibilities": ["Process Owners", "Quality Management"],
+          "documentation_needed": ["Process Map", "Risk Assessment", "Process Matrix"],
+          "examples": "Manufacturing process receives higher control level than administrative process",
+          "keywords": ["processes", "risk-based", "interaction", "sequence", "control"],
+          "related_procedures": ["PROC_7_1", "PROC_8_1"]
+        },
+        {
+          "proc_id": "PROC_4_1_3",
+          "title": "Process Effectiveness and Control Criteria",
+          "requirement": "4.1.3",
+          "description": "For each QMS process, establish effectiveness criteria, ensure resources, implement necessary actions, monitor/measure/analyze, and maintain records",
+          "what_is_required": ["Determine effectiveness criteria and methods", "Ensure resource availability", "Implement necessary actions", "Monitor, measure and analyze processes", "Maintain records"],
+          "key_requirements": ["KPIs defined", "Resources allocated", "Monitoring established", "Analysis performed", "Records maintained"],
+          "implementation_steps": ["1. Define KPIs for each process", "2. Allocate resources", "3. Establish monitoring methodology", "4. Implement measurement procedures", "5. Establish record-keeping system"],
+          "responsibilities": ["Process Owners", "Quality Team"],
+          "documentation_needed": ["KPI Definition", "Monitoring Plans", "Performance Records"],
+          "examples": "Sterilization process KPI: 100% sterility assurance with SAL 10^-6",
+          "keywords": ["effectiveness", "criteria", "monitoring", "measurement", "KPI"],
+          "related_procedures": ["PROC_8_2", "PROC_8_3"]
+        },
+        {
+          "proc_id": "PROC_4_1_4",
+          "title": "Process Management and Modification Control",
+          "requirement": "4.1.4",
+          "description": "Manage QMS processes; evaluate modifications for impact on QMS and medical devices; control modifications",
+          "what_is_required": ["Manage processes per standard", "Evaluate modification impact", "Control modifications"],
+          "key_requirements": ["Change control procedure", "Impact assessment", "Approval process", "Implementation verification"],
+          "implementation_steps": ["1. Establish change control", "2. Document modifications", "3. Perform impact assessment", "4. Obtain approvals", "5. Implement change", "6. Verify effectiveness"],
+          "responsibilities": ["Change Management Committee", "Process Owner"],
+          "documentation_needed": ["Change Request Form", "Impact Assessment", "Change Log"],
+          "examples": "Change from supplier A to B requires: evaluation, testing, documentation update, verification",
+          "keywords": ["modification", "change control", "impact", "management", "approval"],
+          "related_procedures": ["PROC_7_4_1", "PROC_8_5_2"]
+        },
+        {
+          "proc_id": "PROC_4_1_5",
+          "title": "Outsourced Process Management",
+          "requirement": "4.1.5",
+          "description": "When outsourcing processes affecting product conformity, monitor, control, and remain responsible",
+          "what_is_required": ["Monitor outsourced processes", "Remain responsible for conformity", "Control elements proportionate to risk", "Include written quality provisions"],
+          "key_requirements": ["Supplier monitoring", "Responsibility ownership", "Quality agreements", "Risk-based controls"],
+          "implementation_steps": ["1. Identify outsourced processes", "2. Evaluate supplier", "3. Develop supplier agreement", "4. Define control measures", "5. Monitor performance"],
+          "responsibilities": ["Procurement", "Quality", "Supplier Management"],
+          "documentation_needed": ["Supplier Agreement", "Quality Requirements", "Performance Metrics", "Audit Records"],
+          "examples": "Outsourced sterilization includes validation requirements and SAL specifications",
+          "keywords": ["outsourcing", "supplier", "responsibility", "agreement", "monitoring"],
+          "related_procedures": ["PROC_7_4", "PROC_7_4_1"]
+        },
+        {
+          "proc_id": "PROC_4_1_6",
+          "title": "Software Application Validation",
+          "requirement": "4.1.6",
+          "description": "Document procedures for validation of software applications used in QMS; validate before first use and after modifications",
+          "what_is_required": ["Document software validation procedures", "Validate before first use", "Revalidate after modifications", "Maintain validation records"],
+          "key_requirements": ["Validation documentation", "Risk assessment", "Test procedures", "Record keeping"],
+          "implementation_steps": ["1. Document software inventory", "2. Assess risk level", "3. Develop validation plan", "4. Execute testing", "5. Document results"],
+          "responsibilities": ["IT Department", "Quality", "Software Owner"],
+          "documentation_needed": ["Software Inventory", "Validation Protocol", "Test Results", "Validation Report"],
+          "examples": "ERP system validation includes testing record creation, modification, and retrieval",
+          "keywords": ["software", "validation", "IT systems", "testing", "QMS"],
+          "related_procedures": ["PROC_7_5_6", "PROC_8_2_4"]
+        }
+      ]
+    },
+    {
+      "section_id": "4.2",
+      "section_name": "Documentation Requirements",
+      "procedures": [
+        {
+          "proc_id": "PROC_4_2_1",
+          "title": "QMS Documentation Generalities",
+          "requirement": "4.2.1",
+          "description": "QMS documentation must include quality policy, objectives, manual, procedures, and records",
+          "what_is_required": ["Include quality policy and objectives", "Include quality manual", "Include documented procedures", "Include necessary records", "Include regulatory requirements documentation"],
+          "key_requirements": ["Documentation components identified", "Structure established", "Content defined", "Records system created"],
+          "implementation_steps": ["1. Develop quality policy", "2. Establish objectives", "3. Create quality manual", "4. Document core procedures", "5. Establish record system"],
+          "responsibilities": ["Quality Manager", "Document Management"],
+          "documentation_needed": ["Quality Manual", "Procedure List", "Document Register", "Record Index"],
+          "examples": "Quality manual includes: organizational overview, QMS scope, procedures overview",
+          "keywords": ["documentation", "quality manual", "procedures", "records", "requirements"],
+          "related_procedures": ["PROC_4_2_2", "PROC_4_2_4"]
+        },
+        {
+          "proc_id": "PROC_4_2_2",
+          "title": "Quality Manual Development and Maintenance",
+          "requirement": "4.2.2",
+          "description": "Develop and maintain quality manual with scope, procedures, and process interactions",
+          "what_is_required": ["Document QMS scope with exclusions justification", "List documented procedures", "Describe process interactions"],
+          "key_requirements": ["Scope clearly defined", "Exclusions justified", "Procedures referenced", "Interactions documented"],
+          "implementation_steps": ["1. Define QMS scope", "2. Document exclusions", "3. List all procedures", "4. Create process flow", "5. Document interactions"],
+          "responsibilities": ["Quality Manager", "Top Management"],
+          "documentation_needed": ["Quality Manual", "Process Map", "Exclusion Justification"],
+          "examples": "If design control excluded per regulatory approval, manual must document justification",
+          "keywords": ["quality manual", "scope", "exclusions", "procedures", "processes"],
+          "related_procedures": ["PROC_4_2_1", "PROC_1"]
+        },
+        {
+          "proc_id": "PROC_4_2_3",
+          "title": "Medical Device File Development",
+          "requirement": "4.2.3",
+          "description": "For each device type/family, establish and maintain file(s) with conformity proof documents",
+          "what_is_required": ["Include general device description", "Include product specifications", "Include manufacturing specifications", "Include measurement procedures", "Include installation requirements", "Include associated services procedures"],
+          "key_requirements": ["File structure established", "Content complete", "Documents organized", "Updates maintained"],
+          "implementation_steps": ["1. Identify device types", "2. Collect design documentation", "3. Compile manufacturing procedures", "4. Include specifications", "5. Add validation records"],
+          "responsibilities": ["Product Manager", "Quality", "Engineering"],
+          "documentation_needed": ["Product Description", "Design File", "Manufacturing Procedure", "Validation Records"],
+          "examples": "Cardiac stent MDR includes: product description, specs, manufacturing, sterilization validation",
+          "keywords": ["medical device file", "MDR", "device documentation", "specifications"],
+          "related_procedures": ["PROC_7_3_10", "PROC_4_2_1"]
+        },
+        {
+          "proc_id": "PROC_4_2_4",
+          "title": "Document Control Procedure",
+          "requirement": "4.2.4",
+          "description": "Control QMS documents with procedures for review, approval, version status, availability, readability, identification, obsolescence",
+          "what_is_required": ["Review and approve before distribution", "Review and update as needed", "Identify version status and changes", "Ensure current versions available", "Maintain document legibility", "Control external documents", "Prevent deterioration and loss", "Identify and control obsolete documents"],
+          "key_requirements": ["Control procedure established", "Approval authority defined", "Version control system", "Distribution list managed", "Retention periods defined"],
+          "implementation_steps": ["1. Create control procedure", "2. Establish numbering system", "3. Define approval authority", "4. Set up version control", "5. Establish distribution list"],
+          "responsibilities": ["Document Control Officer", "Quality Manager"],
+          "documentation_needed": ["Control Procedure", "Document Register", "Approval Matrix", "Distribution Log"],
+          "examples": "Procedure QMS-001 Rev. B: Released, approved by QA, 45 copies distributed",
+          "keywords": ["document control", "version control", "obsolescence", "management"],
+          "related_procedures": ["PROC_4_2_5", "PROC_4_2_2"]
+        },
+        {
+          "proc_id": "PROC_4_2_5",
+          "title": "Record Control and Management",
+          "requirement": "4.2.5",
+          "description": "Maintain records proving QMS conformity and effectiveness with procedures for identification, storage, security, integrity, accessibility, retention, and disposal",
+          "what_is_required": ["Identify and store records", "Protect and ensure integrity", "Ensure accessibility", "Define retention periods", "Protect confidential information", "Keep records legible", "Keep modifications identifiable", "Retain minimum 2 years from distribution"],
+          "key_requirements": ["Record types identified", "Retention schedule created", "Storage location defined", "Access controls established", "Tracking system implemented"],
+          "implementation_steps": ["1. Identify all record types", "2. Establish numbering system", "3. Define retention periods", "4. Establish storage location", "5. Define access controls"],
+          "responsibilities": ["Records Manager", "Quality Team"],
+          "documentation_needed": ["Control Procedure", "Retention Schedule", "Record Index", "Access List"],
+          "examples": "Batch record retained for device lifetime + 2 years; stored securely; access restricted",
+          "keywords": ["records", "record control", "retention", "traceability"],
+          "related_procedures": ["PROC_4_2_4", "PROC_7_5_9"]
+        }
+      ]
+    },
+    {
+      "section_id": "8.2",
+      "section_name": "Surveillance and Measurement",
+      "procedures": [
+        {
+          "proc_id": "PROC_8_2_1",
+          "title": "Customer Feedback and Satisfaction",
+          "requirement": "8.2.1",
+          "description": "Collect and monitor customer satisfaction information as measure of QMS effectiveness",
+          "what_is_required": ["Collect customer satisfaction data", "Monitor information", "Document feedback methods", "Collect production and post-production data", "Use feedback for improvement"],
+          "key_requirements": ["Feedback collection method", "Monitoring schedule", "Analysis process", "Action plan"],
+          "implementation_steps": ["1. Define feedback methods", "2. Develop feedback forms", "3. Establish collection schedule", "4. Collect feedback", "5. Analyze responses"],
+          "responsibilities": ["Quality", "Sales/Marketing"],
+          "documentation_needed": ["Feedback Forms", "Survey Results", "Analysis Reports", "Action Plans"],
+          "examples": "Annual survey with 90% response rate; questions on quality, delivery, service",
+          "keywords": ["feedback", "customer satisfaction", "monitoring", "satisfaction"],
+          "related_procedures": ["PROC_8_2_2", "PROC_8_4"]
+        },
+        {
+          "proc_id": "PROC_8_2_2",
+          "title": "Complaint Management and Handling",
+          "requirement": "8.2.2",
+          "description": "Document procedures for complaint handling in appropriate timeframe per regulatory requirements",
+          "what_is_required": ["Receipt and recording of information", "Evaluate if complaint", "Analyze complaint", "Determine regulatory reporting", "Determine product treatment", "Determine corrective action", "Maintain records"],
+          "key_requirements": ["Complaint procedure documented", "Timeframe defined", "Investigation process", "Regulatory check", "Action determination"],
+          "implementation_steps": ["1. Establish receipt process", "2. Create complaint form", "3. Assign complaint number", "4. Evaluate validity", "5. Investigate root cause", "6. Assess impact"],
+          "responsibilities": ["Quality Manager", "Complaint Handler"],
+          "documentation_needed": ["Complaint Form", "Investigation Report", "Action Report", "Regulatory Report"],
+          "examples": "Sterility issue: Complaint logged same day, investigation launched, batch traced",
+          "keywords": ["complaint", "handling", "investigation", "management"],
+          "related_procedures": ["PROC_8_2_1", "PROC_8_3_3"]
+        },
+        {
+          "proc_id": "PROC_8_2_3",
+          "title": "Regulatory Authority Reporting",
+          "requirement": "8.2.3",
+          "description": "When required by regulations, document procedures to notify regulatory authorities",
+          "what_is_required": ["Notify of complaints meeting criteria", "Notify of adverse events", "Distribute warning notices", "Maintain notification records"],
+          "key_requirements": ["Regulatory contacts identified", "Requirements understood", "Reporting triggers defined", "Templates created", "Timeframes defined"],
+          "implementation_steps": ["1. Establish regulatory contacts", "2. Understand requirements", "3. Define reporting triggers", "4. Create templates", "5. Establish timeframes"],
+          "responsibilities": ["Regulatory Affairs", "Quality Manager"],
+          "documentation_needed": ["Regulatory Contacts", "Procedures", "Templates", "Submitted Reports"],
+          "examples": "FDA MedWatch: Hospitalization reported within 15 days with device details",
+          "keywords": ["regulatory", "reporting", "adverse events", "MedWatch", "FDA"],
+          "related_procedures": ["PROC_8_2_2", "PROC_8_3_3"]
+        },
+        {
+          "proc_id": "PROC_8_2_4",
+          "title": "Internal Audit Procedure",
+          "requirement": "8.2.4",
+          "description": "Conduct internal audits at planned intervals to determine QMS conformity and effectiveness",
+          "what_is_required": ["Conduct audits at planned intervals", "Determine standard conformity", "Determine effective implementation", "Assess regulatory conformity", "Maintain audit records", "Ensure corrective action"],
+          "key_requirements": ["Audit procedure developed", "Audit plan created", "Auditors selected", "Criteria defined", "Records maintained"],
+          "implementation_steps": ["1. Develop audit procedure", "2. Create audit plan", "3. Select auditors", "4. Train auditors", "5. Conduct audit", "6. Document findings"],
+          "responsibilities": ["Audit Manager", "Auditors"],
+          "documentation_needed": ["Audit Procedure", "Annual Plan", "Checklist", "Audit Report"],
+          "examples": "Quarterly manufacturing audit: Check equipment, training, document control, traceability",
+          "keywords": ["internal audit", "audit", "compliance", "assessment"],
+          "related_procedures": ["PROC_8_2_5", "PROC_5_6_2"]
+        },
+        {
+          "proc_id": "PROC_8_2_5",
+          "title": "Process Monitoring and Measurement",
+          "requirement": "8.2.5",
+          "description": "Monitor and measure QMS processes to demonstrate capability of achieving planned results",
+          "what_is_required": ["Monitor processes", "Measure when applicable", "Demonstrate process capability", "Compare to planned results", "Implement corrections", "Implement corrective actions"],
+          "key_requirements": ["KPIs defined", "Targets set", "Monitoring frequency", "Data collection", "Analysis performed", "Action taken"],
+          "implementation_steps": ["1. Define KPIs", "2. Set targets", "3. Establish frequency", "4. Collect data", "5. Analyze performance", "6. Compare to targets"],
+          "responsibilities": ["Process Owner", "Quality Team"],
+          "documentation_needed": ["Process Metrics", "Monitoring Records", "Control Charts", "Analysis Reports"],
+          "examples": "Manufacturing: Monitor defect rate daily, yield weekly, delivery monthly",
+          "keywords": ["process measurement", "monitoring", "performance", "metrics"],
+          "related_procedures": ["PROC_8_2_6", "PROC_8_5_2"]
+        },
+        {
+          "proc_id": "PROC_8_2_6",
+          "title": "Product Monitoring and Measurement",
+          "requirement": "8.2.6",
+          "description": "Monitor and measure product characteristics to verify requirement satisfaction at applicable stages",
+          "what_is_required": ["Monitor product characteristics", "Verify requirement satisfaction", "Perform at applicable stages", "Maintain conformance proof", "Record authorization identity", "Identify test equipment", "Do not release before completion"],
+          "key_requirements": ["Testing requirements defined", "Procedures created", "Acceptance criteria", "Operators trained", "Results recorded"],
+          "implementation_steps": ["1. Define testing requirements", "2. Create procedures", "3. Select equipment", "4. Establish criteria", "5. Train operators", "6. Perform testing"],
+          "responsibilities": ["Quality Inspector", "Test Technician"],
+          "documentation_needed": ["Procedures", "Inspection Records", "Certificates", "Approval Records"],
+          "examples": "Device production: Incoming testing, in-process verification, final inspection",
+          "keywords": ["product measurement", "inspection", "testing", "verification"],
+          "related_procedures": ["PROC_7_5_1", "PROC_8_3"]
+        }
+      ]
+    },
+    {
+      "section_id": "8.3",
+      "section_name": "Non-Conforming Product Control",
+      "procedures": [
+        {
+          "proc_id": "PROC_8_3_1",
+          "title": "Non-Conforming Product Control",
+          "requirement": "8.3.1",
+          "description": "Ensure non-conforming product is identified and controlled to prevent unintended use/delivery",
+          "what_is_required": ["Identify non-conforming product", "Control to prevent use", "Document procedure", "Define control measures", "Evaluate non-conformity", "Assess external involvement", "Maintain records"],
+          "key_requirements": ["Identification system", "Segregation method", "Documentation process", "Evaluation procedure", "Authority definition"],
+          "implementation_steps": ["1. Detect non-conformity", "2. Segregate product", "3. Document", "4. Investigate", "5. Assess impact", "6. Determine actions"],
+          "responsibilities": ["Quality Inspector", "Quality Manager"],
+          "documentation_needed": ["Non-Conformance Report", "Investigation Report", "Disposition Decision"],
+          "examples": "Sterility failure: Immediately segregated, investigation launched, batch quarantined",
+          "keywords": ["non-conformance", "control", "management", "segregation"],
+          "related_procedures": ["PROC_8_3_2", "PROC_8_3_3"]
+        },
+        {
+          "proc_id": "PROC_8_3_2",
+          "title": "Non-Conformity Actions Before Delivery",
+          "requirement": "8.3.2",
+          "description": "Treat non-conforming product by: eliminating non-conformity, preventing use, or authorizing by waiver",
+          "what_is_required": ["Eliminate non-conformity", "Prevent original use", "Authorize use by waiver if justified", "Verify rework", "Maintain records"],
+          "key_requirements": ["Rework evaluation", "Cost-benefit assessment", "Disposition determination", "Approval process", "Verification completion"],
+          "implementation_steps": ["1. Evaluate rework", "2. Assess cost-benefit", "3. Determine disposition", "4. If rework: perform and verify", "5. If waiver: document"],
+          "responsibilities": ["Quality Manager", "Engineering"],
+          "documentation_needed": ["Rework Procedure", "Deviation Form", "Risk Assessment", "Approval Records"],
+          "examples": "Dimension slightly out of tolerance: Approved deviation with engineering sign-off",
+          "keywords": ["non-conformity", "rework", "deviation", "waiver"],
+          "related_procedures": ["PROC_8_3_1", "PROC_8_5_2"]
+        },
+        {
+          "proc_id": "PROC_8_3_3",
+          "title": "Non-Conformity Actions After Delivery",
+          "requirement": "8.3.3",
+          "description": "When non-conformity detected after delivery, take appropriate actions based on effects",
+          "what_is_required": ["Investigate non-conformity", "Assess risk", "Determine recall", "Issue warning notice", "Track notification", "Monitor corrective action"],
+          "key_requirements": ["Investigation process", "Risk assessment", "Recall determination", "Notice distribution", "Tracking system"],
+          "implementation_steps": ["1. Receive complaint", "2. Assess severity", "3. Determine recall", "4. Prepare warning", "5. Notify authorities", "6. Notify customers"],
+          "responsibilities": ["Quality Manager", "Regulatory Affairs"],
+          "documentation_needed": ["Post-Market Report", "Warning Notice", "Regulatory Filings", "Communications"],
+          "examples": "Safety issue: FDA notified, customer warning issued, device recalled, root cause corrected",
+          "keywords": ["post-market", "recall", "warning notice", "field action"],
+          "related_procedures": ["PROC_8_2_2", "PROC_8_2_3"]
+        }
+      ]
+    },
+    {
+      "section_id": "8.5",
+      "section_name": "Improvement",
+      "procedures": [
+        {
+          "proc_id": "PROC_8_5_2",
+          "title": "Corrective Action Procedure",
+          "requirement": "8.5.2",
+          "description": "Implement actions to eliminate non-conformity causes to prevent recurrence",
+          "what_is_required": ["Review non-conformity", "Determine causes", "Assess need for action", "Plan corrective action", "Implement action", "Verify no negative effects", "Review effectiveness"],
+          "key_requirements": ["Procedure documented", "Root cause analysis", "Action planning", "Implementation tracking", "Effectiveness verification"],
+          "implementation_steps": ["1. Identify non-conformity", "2. Perform investigation", "3. Analyze root cause", "4. Develop action plan", "5. Implement", "6. Verify effectiveness"],
+          "responsibilities": ["Quality Manager", "Corrective Action Team"],
+          "documentation_needed": ["CAR Form", "Investigation Report", "Action Plan", "Verification Records"],
+          "examples": "Supplier defects: Root cause found, specifications updated, incoming testing added",
+          "keywords": ["corrective action", "CAPA", "root cause", "effectiveness"],
+          "related_procedures": ["PROC_8_3_2", "PROC_8_5_3"]
+        },
+        {
+          "proc_id": "PROC_8_5_3",
+          "title": "Preventive Action Procedure",
+          "requirement": "8.5.3",
+          "description": "Determine actions to eliminate potential non-conformity causes to prevent occurrence",
+          "what_is_required": ["Identify potential issues", "Analyze causes", "Assess prevention need", "Plan action", "Implement", "Verify no negative effects", "Review effectiveness"],
+          "key_requirements": ["Procedure documented", "Risk identification", "Prevention planning", "Implementation", "Monitoring"],
+          "implementation_steps": ["1. Monitor for potential issues", "2. Identify risks", "3. Perform risk analysis", "4. Develop prevention plan", "5. Implement measures"],
+          "responsibilities": ["Process Owner", "Quality Manager"],
+          "documentation_needed": ["PAR Form", "Risk Assessment", "Prevention Plan", "Monitoring Records"],
+          "examples": "Sterilization variability: Equipment upgraded, sample frequency increased, retraining provided",
+          "keywords": ["preventive action", "prevention", "risk", "proactive"],
+          "related_procedures": ["PROC_8_5_2", "PROC_8_4"]
+        }
+      ]
+    },
+    {
+      "section_id": "5",
+      "section_name": "Management Responsibility",
+      "procedures": [
+        {
+          "proc_id": "PROC_5_1",
+          "title": "Management Commitment",
+          "requirement": "5.1",
+          "description": "Top management must demonstrate commitment by communicating, establishing policy, objectives, reviews, and resources",
+          "what_is_required": ["Communicate importance", "Establish quality policy", "Ensure objectives", "Conduct reviews", "Ensure resources"],
+          "key_requirements": ["Policy statement", "Objectives defined", "Resources allocated", "Reviews scheduled"],
+          "implementation_steps": ["1. Define roles", "2. Develop policy", "3. Establish objectives", "4. Schedule reviews", "5. Allocate budget"],
+          "responsibilities": ["Top Management", "CEO/President"],
+          "documentation_needed": ["Quality Policy", "Review Records", "Budget Plan"],
+          "examples": "CEO commits to zero-defect policy, ensures quarterly reviews, allocates budget",
+          "keywords": ["commitment", "leadership", "policy", "resources"],
+          "related_procedures": ["PROC_5_3", "PROC_5_6"]
+        },
+        {
+          "proc_id": "PROC_5_3",
+          "title": "Quality Policy",
+          "requirement": "5.3",
+          "description": "Establish quality policy appropriate to purpose, including commitment, framework, and communication",
+          "what_is_required": ["Appropriate to purpose", "Include commitment", "Include QMS effectiveness", "Provide framework", "Communicate", "Ensure understanding"],
+          "key_requirements": ["Policy statement", "Commitment clear", "Framework provided", "Communication plan"],
+          "implementation_steps": ["1. Develop statement", "2. Align with objectives", "3. Include commitment", "4. Communicate", "5. Include in training"],
+          "responsibilities": ["Top Management", "HR"],
+          "documentation_needed": ["Policy Statement", "Communication Plan", "Training Records"],
+          "examples": "Policy: Committed to meeting all customer and regulatory requirements with zero tolerance",
+          "keywords": ["quality policy", "commitment", "communication"],
+          "related_procedures": ["PROC_5_4", "PROC_5_1"]
+        },
+        {
+          "proc_id": "PROC_5_6_1",
+          "title": "Management Review",
+          "requirement": "5.6.1",
+          "description": "Conduct management reviews at planned intervals to ensure QMS remains appropriate, adequate, effective",
+          "what_is_required": ["Document procedures", "Conduct at intervals", "Ensure appropriateness", "Evaluate improvements", "Assess modifications"],
+          "key_requirements": ["Procedure documented", "Schedule defined", "Agenda prepared", "Minutes recorded"],
+          "implementation_steps": ["1. Document procedure", "2. Establish schedule", "3. Define inputs", "4. Conduct meeting", "5. Document results"],
+          "responsibilities": ["Top Management", "Review Team"],
+          "documentation_needed": ["Procedure", "Schedule", "Minutes", "Action Plans"],
+          "examples": "Quarterly review: Q1, Q2, Q3, Q4 with CEO, QM, Production Manager",
+          "keywords": ["management review", "effectiveness", "periodic"],
+          "related_procedures": ["PROC_5_6_2", "PROC_5_6_3"]
+        }
+      ]
+    },
+    {
+      "section_id": "6",
+      "section_name": "Resource Management",
+      "procedures": [
+        {
+          "proc_id": "PROC_6_2",
+          "title": "Human Resources Competency",
+          "requirement": "6.2",
+          "description": "Personnel performing quality-affecting work must be competent based on education, training, skill and experience",
+          "what_is_required": ["Define competencies", "Provide training", "Evaluate effectiveness", "Ensure awareness", "Maintain records"],
+          "key_requirements": ["Competency requirements", "Training plans", "Evaluation method", "Record system"],
+          "implementation_steps": ["1. Identify roles", "2. Define competencies", "3. Assess current state", "4. Develop training", "5. Provide training", "6. Evaluate"],
+          "responsibilities": ["HR", "Training Coordinator"],
+          "documentation_needed": ["Matrix", "Training Plans", "Training Records", "Assessments"],
+          "examples": "Manufacturing technician: Initial training, SOP compliance, quality procedures, annual refresher",
+          "keywords": ["competency", "training", "personnel", "HR"],
+          "related_procedures": ["PROC_6_1", "PROC_8_2_4"]
+        },
+        {
+          "proc_id": "PROC_6_3",
+          "title": "Infrastructure Requirements",
+          "requirement": "6.3",
+          "description": "Document infrastructure requirements and maintenance activities for product conformity",
+          "what_is_required": ["Document requirements", "Define maintenance", "Define intervals", "Keep records"],
+          "key_requirements": ["Requirements documented", "Maintenance schedule", "Intervals defined", "Records kept"],
+          "implementation_steps": ["1. Document requirements", "2. Inventory items", "3. Define maintenance", "4. Schedule maintenance", "5. Perform maintenance"],
+          "responsibilities": ["Facilities Manager", "Equipment Owners"],
+          "documentation_needed": ["Requirements", "Schedule", "Records", "Equipment List"],
+          "examples": "Equipment: Maintenance every 250 hours, calibration every 6 months",
+          "keywords": ["infrastructure", "maintenance", "facilities"],
+          "related_procedures": ["PROC_6_1", "PROC_7_6"]
+        },
+        {
+          "proc_id": "PROC_6_4_1",
+          "title": "Work Environment Control",
+          "requirement": "6.4.1",
+          "description": "Document work environment requirements when conditions can affect product quality",
+          "what_is_required": ["Document requirements", "Monitor conditions", "Control parameters", "Maintain records"],
+          "key_requirements": ["Requirements identified", "Parameters defined", "Monitoring method", "Control procedures"],
+          "implementation_steps": ["1. Identify impacts", "2. Define requirements", "3. Select monitoring", "4. Establish controls", "5. Implement"],
+          "responsibilities": ["Facilities", "Quality", "Supervisors"],
+          "documentation_needed": ["Requirements", "Monitoring Plans", "Records", "Procedures"],
+          "examples": "Clean room: Class 7, 20-24°C, 45-55% RH; daily monitoring recorded",
+          "keywords": ["environment", "conditions", "cleanliness"],
+          "related_procedures": ["PROC_6_4_2", "PROC_7_5_2"]
+        }
+      ]
+    },
+    {
+      "section_id": "7.2",
+      "section_name": "Customer Related Processes",
+      "procedures": [
+        {
+          "proc_id": "PROC_7_2_1",
+          "title": "Product Requirement Determination",
+          "requirement": "7.2.1",
+          "description": "Determine customer requirements, implied requirements, regulatory requirements, and additional organization requirements",
+          "what_is_required": ["Determine specified requirements", "Determine implied requirements", "Identify regulatory requirements", "Identify training needs", "Define organization requirements"],
+          "key_requirements": ["Requirements documented", "Sources identified", "Completeness verified", "Conflicts resolved"],
+          "implementation_steps": ["1. Document requirements", "2. Clarify ambiguous", "3. Identify regulations", "4. Determine use", "5. Define performance"],
+          "responsibilities": ["Sales", "Quality", "Engineering"],
+          "documentation_needed": ["Customer Requirements", "Specification", "Matrix", "Checklist"],
+          "examples": "Insulin pump: Flow rate accuracy, biocompatibility, FDA 510(k) requirements",
+          "keywords": ["product requirements", "customer", "regulatory"],
+          "related_procedures": ["PROC_7_2_2", "PROC_7_2_3"]
+        },
+        {
+          "proc_id": "PROC_7_2_2",
+          "title": "Product Requirement Review",
+          "requirement": "7.2.2",
+          "description": "Review product requirements before committing to supply to ensure feasibility",
+          "what_is_required": ["Review before commitment", "Ensure clarity", "Resolve conflicts", "Verify regulatory", "Assess capability", "Maintain records"],
+          "key_requirements": ["Review completed", "Requirements clear", "Conflicts resolved", "Capability confirmed"],
+          "implementation_steps": ["1. Receive requirements", "2. Review completeness", "3. Verify compliance", "4. Assess capability", "5. Approve or negotiate"],
+          "responsibilities": ["Quality Engineer", "Sales Manager"],
+          "documentation_needed": ["Checklist", "Review Record", "Approval Form"],
+          "examples": "New material device: Review confirms data available, capability exists, timeline feasible",
+          "keywords": ["requirement review", "approval", "compliance"],
+          "related_procedures": ["PROC_7_2_1", "PROC_7_3_1"]
+        },
+        {
+          "proc_id": "PROC_7_2_3",
+          "title": "Customer Communication",
+          "requirement": "7.2.3",
+          "description": "Plan and document customer communication about product info, inquiries, contracts, feedback, and warnings",
+          "what_is_required": ["Plan communication", "Document arrangements", "Address product information", "Handle inquiries", "Manage feedback", "Distribute warnings"],
+          "key_requirements": ["Communication channels", "Contact procedures", "Feedback process", "Complaint handling"],
+          "implementation_steps": ["1. Identify needs", "2. Determine channels", "3. Define procedures", "4. Establish feedback", "5. Implement"],
+          "responsibilities": ["Customer Service", "Quality"],
+          "documentation_needed": ["Communication Plan", "Procedures", "Feedback Forms"],
+          "examples": "Product info via website, orders via portal, feedback via email, warnings via mail",
+          "keywords": ["customer communication", "feedback", "complaints"],
+          "related_procedures": ["PROC_7_2_1", "PROC_8_2_2"]
+        }
+      ]
+    }
+  ]
+}
