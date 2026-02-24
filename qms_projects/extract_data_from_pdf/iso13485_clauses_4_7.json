@@ -1,0 +1,1991 @@
+{
+  "standard": "ISO 13485:2016",
+  "scope": [
+    "Clause 4",
+    "Clause 5",
+    "Clause 6",
+    "Clause 7"
+  ],
+  "entries": [
+    {
+      "clause_number": "4.1",
+      "clause_title": "Exigences génér",
+      "procedure_name": "Exigences génér - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 4.1.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 4.1.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "4.2",
+      "clause_title": "Exigences r",
+      "procedure_name": "Exigences r - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 4.2.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 4.2.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "4.2.1",
+      "clause_title": "Généralités ............................................................................................................................................................................ 7",
+      "procedure_name": "Généralités ............................................................................................................................................................................ 7 - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 4.2.1.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 4.2.1.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "4.2.2",
+      "clause_title": "Manu",
+      "procedure_name": "Manu - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 4.2.2.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 4.2.2.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "4.2.3",
+      "clause_title": "Dossi",
+      "procedure_name": "Dossi - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 4.2.3.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 4.2.3.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "4.2.4",
+      "clause_title": "Maîtrise des docum",
+      "procedure_name": "Maîtrise des docum - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 4.2.4.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 4.2.4.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "4.2.5",
+      "clause_title": "Maîtrise des enr",
+      "procedure_name": "Maîtrise des enr - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 4.2.5.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 4.2.5.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "5.1",
+      "clause_title": "Eng",
+      "procedure_name": "Eng - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 5.1.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 5.1.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "5.2",
+      "clause_title": "Orientation client .................................................................................................................................................................................. 9",
+      "procedure_name": "Orientation client .................................................................................................................................................................................. 9 - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 5.2.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 5.2.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "5.3",
+      "clause_title": "P",
+      "procedure_name": "P - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 5.3.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 5.3.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "5.4",
+      "clause_title": "Planification ............................................................................................................................................................................................ 10",
+      "procedure_name": "Planification ............................................................................................................................................................................................ 10 - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 5.4.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 5.4.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "5.4.1",
+      "clause_title": "Objectif",
+      "procedure_name": "Objectif - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 5.4.1.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 5.4.1.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "5.4.2",
+      "clause_title": "Planification du s",
+      "procedure_name": "Planification du s - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 5.4.2.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 5.4.2.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "5.5",
+      "clause_title": "R",
+      "procedure_name": "R - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 5.5.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 5.5.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "5.5.1",
+      "clause_title": "R",
+      "procedure_name": "R - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 5.5.1.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 5.5.1.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "5.5.2",
+      "clause_title": "R",
+      "procedure_name": "R - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 5.5.2.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 5.5.2.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "5.5.3",
+      "clause_title": "Comm",
+      "procedure_name": "Comm - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 5.5.3.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 5.5.3.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "5.6",
+      "clause_title": "R",
+      "procedure_name": "R - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 5.6.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 5.6.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "5.6.1",
+      "clause_title": "Généralités ......................................................................................................................................................................... 10",
+      "procedure_name": "Généralités ......................................................................................................................................................................... 10 - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 5.6.1.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 5.6.1.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "5.6.2",
+      "clause_title": "Éléments d’entr",
+      "procedure_name": "Éléments d’entr - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 5.6.2.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 5.6.2.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "5.6.3",
+      "clause_title": "Éléments de sortie",
+      "procedure_name": "Éléments de sortie - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 5.6.3.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 5.6.3.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "6.1",
+      "clause_title": "Mise à disposition des r",
+      "procedure_name": "Mise à disposition des r - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 6.1.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 6.1.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "6.2",
+      "clause_title": "R",
+      "procedure_name": "R - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 6.2.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 6.2.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "6.3",
+      "clause_title": "Infr",
+      "procedure_name": "Infr - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 6.3.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 6.3.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "6.4",
+      "clause_title": "En",
+      "procedure_name": "En - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 6.4.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 6.4.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "6.4.1",
+      "clause_title": "En",
+      "procedure_name": "En - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 6.4.1.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 6.4.1.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "6.4.2",
+      "clause_title": "Maîtrise de la conta",
+      "procedure_name": "Maîtrise de la conta - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 6.4.2.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 6.4.2.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "7.1",
+      "clause_title": "Planification de la r",
+      "procedure_name": "Planification de la r - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 7.1.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 7.1.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "7.2",
+      "clause_title": "Pr",
+      "procedure_name": "Pr - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 7.2.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 7.2.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "7.2.1",
+      "clause_title": "Dét",
+      "procedure_name": "Dét - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 7.2.1.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 7.2.1.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "7.2.2",
+      "clause_title": "R",
+      "procedure_name": "R - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 7.2.2.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 7.2.2.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "7.2.3",
+      "clause_title": "Communication .............................................................................................................................................................. 14",
+      "procedure_name": "Communication .............................................................................................................................................................. 14 - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 7.2.3.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 7.2.3.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "7.3",
+      "clause_title": "Conception et dé",
+      "procedure_name": "Conception et dé - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 7.3.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 7.3.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "7.3.1",
+      "clause_title": "Généralités ......................................................................................................................................................................... 15",
+      "procedure_name": "Généralités ......................................................................................................................................................................... 15 - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 7.3.1.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 7.3.1.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "7.3.2",
+      "clause_title": "Planification de la c",
+      "procedure_name": "Planification de la c - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 7.3.2.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 7.3.2.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "7.3.3",
+      "clause_title": "Éléments d’entr",
+      "procedure_name": "Éléments d’entr - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 7.3.3.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 7.3.3.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "7.3.4",
+      "clause_title": "Éléments de sortie",
+      "procedure_name": "Éléments de sortie - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 7.3.4.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 7.3.4.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "7.3.5",
+      "clause_title": "R",
+      "procedure_name": "R - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 7.3.5.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 7.3.5.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "7.3.6",
+      "clause_title": "V",
+      "procedure_name": "V - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 7.3.6.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 7.3.6.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "7.3.7",
+      "clause_title": "V",
+      "procedure_name": "V - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 7.3.7.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 7.3.7.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "7.3.8",
+      "clause_title": "T",
+      "procedure_name": "T - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 7.3.8.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 7.3.8.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "7.3.9",
+      "clause_title": "Maîtrise des modifi",
+      "procedure_name": "Maîtrise des modifi - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 7.3.9.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 7.3.9.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "7.3.10",
+      "clause_title": "Dossi",
+      "procedure_name": "Dossi - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 7.3.10.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 7.3.10.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "7.4",
+      "clause_title": "A chats  ........................................................................................................................................................................................................... 18",
+      "procedure_name": "A chats  ........................................................................................................................................................................................................... 18 - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 7.4.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 7.4.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "7.4.1",
+      "clause_title": "Pr",
+      "procedure_name": "Pr - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 7.4.1.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 7.4.1.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "7.4.2",
+      "clause_title": "Inf",
+      "procedure_name": "Inf - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 7.4.2.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 7.4.2.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "7.4.3",
+      "clause_title": "V",
+      "procedure_name": "V - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 7.4.3.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 7.4.3.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "7.5",
+      "clause_title": "Pr",
+      "procedure_name": "Pr - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 7.5.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 7.5.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "7.5.1",
+      "clause_title": "Maîtrise de la pr",
+      "procedure_name": "Maîtrise de la pr - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 7.5.1.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 7.5.1.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "7.5.2",
+      "clause_title": "Pr",
+      "procedure_name": "Pr - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 7.5.2.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 7.5.2.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "7.5.3",
+      "clause_title": "A",
+      "procedure_name": "A - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 7.5.3.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 7.5.3.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "7.5.4",
+      "clause_title": "Pr",
+      "procedure_name": "Pr - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 7.5.4.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 7.5.4.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "7.5.5",
+      "clause_title": "Exigences particulièr",
+      "procedure_name": "Exigences particulièr - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 7.5.5.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 7.5.5.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "7.5.6",
+      "clause_title": "V",
+      "procedure_name": "V - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 7.5.6.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 7.5.6.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "7.5.7",
+      "clause_title": "Exigences spécifiqu",
+      "procedure_name": "Exigences spécifiqu - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 7.5.7.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 7.5.7.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "7.5.8",
+      "clause_title": "Identification .................................................................................................................................................................... 21",
+      "procedure_name": "Identification .................................................................................................................................................................... 21 - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 7.5.8.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 7.5.8.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "7.5.9",
+      "clause_title": "Traçabilité ........................................................................................................................................................................... 21",
+      "procedure_name": "Traçabilité ........................................................................................................................................................................... 21 - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 7.5.9.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 7.5.9.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "7.5.10",
+      "clause_title": "Pr",
+      "procedure_name": "Pr - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 7.5.10.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 7.5.10.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "7.5.11",
+      "clause_title": "Pr",
+      "procedure_name": "Pr - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 7.5.11.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 7.5.11.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    },
+    {
+      "clause_number": "7.6",
+      "clause_title": "Maîtrise des équipements de surv",
+      "procedure_name": "Maîtrise des équipements de surv - Implementation Procedure",
+      "purpose": "Ensure compliance with ISO 13485 clause 7.6.",
+      "responsible_roles": [
+        "Top Management",
+        "Quality Manager",
+        "Process Owner"
+      ],
+      "required_documents": [
+        "Applicable procedures",
+        "Forms/templates",
+        "Master document list (if applicable)"
+      ],
+      "procedure_steps": [
+        "Review the requirements of clause 7.6.",
+        "Define responsibilities for implementation.",
+        "Develop documented procedure or process as required.",
+        "Implement the process within the organization.",
+        "Ensure required documentation is controlled and maintained.",
+        "Maintain records demonstrating compliance.",
+        "Periodically review effectiveness of the process."
+      ],
+      "records_generated": [
+        "Implementation records",
+        "Review records",
+        "Compliance evidence"
+      ],
+      "source": {
+        "pdf_path": "qms_projects\\data\\ISO-13485-2016F.pdf"
+      }
+    }
+  ]
+}
