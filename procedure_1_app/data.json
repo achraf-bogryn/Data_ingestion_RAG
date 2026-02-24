@@ -1,0 +1,306 @@
+{
+  "procedure": {
+    "id": "DOC-CTRL-001",
+    "title": "Control of Documents and Records",
+    "version": "1.0",
+    "standard": "ISO 13485:2016",
+    "purpose": "Defines principles and requirements for controlling documents and records within QMS to ensure accuracy, approval, traceability, accessibility, protection, and retention.",
+    
+    "sections": {
+      "1": {
+        "section_number": "1",
+        "section_title": "Purpose",
+        "description": "Explains why the procedure exists and what it achieves",
+        "must_contain": [
+          "Clear statement of what the procedure controls",
+          "Link to ISO 13485 requirement",
+          "Key objectives (accuracy, approval, traceability, etc.)",
+          "Prevention of unintended document use",
+          "Records as objective evidence"
+        ],
+        "example_text": "This procedure defines the principles and requirements for controlling documents and records within a Quality Management System (QMS). It ensures that documented information remains accurate, approved, traceable, accessible, protected, and retained in accordance with ISO 13485:2016 requirements. It prevents unintended use of obsolete documents and ensures that records provide reliable objective evidence of conformity."
+      },
+      
+      "2": {
+        "section_number": "2",
+        "section_title": "Scope",
+        "description": "Defines what and who the procedure applies to",
+        "must_contain": [
+          "All types of documents covered (internal, external, paper, electronic)",
+          "Examples of document types (policies, procedures, work instructions, forms, templates, specifications, plans)",
+          "All personnel roles affected (creation, review, approval, use, maintenance, storage, archiving)",
+          "Whether it applies to paper-based and electronic documents"
+        ],
+        "example_text": "This procedure applies to all documents and records forming part of the QMS, whether internal or external, paper-based or electronic. It includes policies, procedures, work instructions, forms, templates, specifications, and plans. This procedure applies to all personnel involved in creating, reviewing, approving, using, maintaining, storing, or archiving controlled documentation."
+      },
+      
+      "3": {
+        "section_number": "3",
+        "section_title": "References",
+        "description": "Lists standards, regulations, and documents that support this procedure",
+        "must_contain": [
+          "Primary standard reference (ISO 13485:2016 Clause 4.2.4 Control of Documents)",
+          "Secondary standard reference (ISO 13485:2016 Clause 4.2.5 Control of Records)",
+          "Any regulatory references (EU MDR, customer requirements)",
+          "Note about conditional applicability"
+        ],
+        "example_text": "The following references are always applicable to this procedure:\n• ISO 13485:2016 – Clause 4.2.4 Control of Documents\n• ISO 13485:2016 – Clause 4.2.5 Control of Records\nConditionally applicable reference: Regulatory and customer requirements are referenced only when they exist and are applicable to the organization."
+      },
+      
+      "4": {
+        "section_number": "4",
+        "section_title": "Definitions",
+        "description": "Defines key terms used throughout the procedure",
+        "must_contain": [
+          "Document - information describing requirements, instructions, or specifications",
+          "Record - objective evidence of activities performed or results achieved",
+          "Controlled Document - document subject to approval, version control, and distribution",
+          "Obsolete Document - withdrawn document retained for traceability",
+          "EDMS definition (if applicable) - Electronic Document Management System"
+        ],
+        "example_text": "Document: Controlled information describing requirements, instructions, or specifications necessary for QMS operation.\nRecord: Evidence that an activity was performed or a result achieved. Records are fixed after issuance and corrections must remain traceable.\nControlled Document: A document subject to approval, version control, and distribution rules.\nObsolete Document: A withdrawn version retained only for traceability or regulatory purposes.\nElectronic Document Management System (EDMS): A computerized system used to manage documents and records, ensuring version control, access control, traceability, and data integrity."
+      },
+      
+      "5": {
+        "section_number": "5",
+        "section_title": "Responsibilities",
+        "description": "Assigns clear roles and accountability for document and record control",
+        "must_contain": [
+          "Top Management - resource provision",
+          "Quality Manager - owns document control system",
+          "Process Owners - ensure accuracy and relevance within scope",
+          "Authors - draft documents with clarity and applicability",
+          "Reviewers - independent technical accuracy review",
+          "Approvers - authorize release (cannot be document creator)",
+          "Personnel - use approved documents, complete records accurately",
+          "IT Function - maintains security, backups, access control (if applicable)"
+        ],
+        "example_text": "Top Management ensures resources are available to maintain effective document and record control. Quality Manager owns the document control system and ensures compliance with ISO requirements. Process Owners ensure accuracy and relevance of documents within their scope. Authors draft documents in accordance with approved rules and ensure clarity and applicability. Reviewers perform independent review to confirm technical accuracy, coherence, and compliance. Approvers authorize release of documents - the individual who creates a document shall not be the same person who approves it. Personnel use only approved documents and complete records accurately. IT Function (where applicable) maintains security, backups, access control, and availability of electronic systems."
+      },
+      
+      "6": {
+        "section_number": "6",
+        "section_title": "Document and Record Control Process Map",
+        "description": "Shows the lifecycle stages of controlled documentation",
+        "must_contain": [
+          "Creation or identification of need",
+          "Drafting",
+          "Review and approval",
+          "Release and distribution",
+          "Use and record generation",
+          "Revision and re-approval",
+          "Archiving",
+          "Retention and secure destruction"
+        ],
+        "example_text": "The lifecycle of controlled documentation follows these stages:\n1. Creation or identification of need\n2. Drafting\n3. Review and approval\n4. Release and distribution\n5. Use and record generation\n6. Revision and re-approval (when required)\n7. Archiving\n8. Retention and secure destruction"
+      },
+      
+      "7": {
+        "section_number": "7",
+        "section_title": "Control of Documents",
+        "description": "Detailed requirements for document identification, approval, distribution, review, and obsolescence",
+        "subsections": {
+          "7.1": {
+            "title": "Identification",
+            "must_contain": [
+              "Unique document identifier/ID",
+              "Document title",
+              "Version/revision identifier",
+              "Organization's document coding system",
+              "Legibility throughout lifecycle"
+            ],
+            "example_text": "Each controlled document shall include a unique identifier, title, and an effective status/version identifier as defined by the organization's document control rules. Documents must remain legible and identifiable throughout their lifecycle."
+          },
+          "7.2": {
+            "title": "Creation and Approval",
+            "must_contain": [
+              "Documents created based on operational/quality/compliance needs",
+              "Formal review before release required",
+              "Separation of creator and approver roles"
+            ],
+            "example_text": "Documents are created based on operational, quality, or compliance needs. Documents shall be reviewed and formally approved before release. The person who creates a document shall not approve their own document."
+          },
+          "7.3": {
+            "title": "Distribution and Access",
+            "must_contain": [
+              "Only approved versions available at points of use",
+              "Access rights prevent unauthorized modification",
+              "Control of distribution"
+            ],
+            "example_text": "Only approved versions are available at points of use. Access rights prevent unauthorized modification."
+          },
+          "7.4": {
+            "title": "Periodic Review",
+            "must_contain": [
+              "Planned review intervals defined",
+              "Triggers for review (audits, regulatory changes, process modifications)",
+              "Formal version control",
+              "Traceability of all revisions (who, when, what changed)"
+            ],
+            "example_text": "Documents are reviewed at planned intervals or triggered by audits, regulatory changes, or process modifications. Controlled documents are managed through formal version control. All revisions shall be traceable, indicating who performed the change, when it was made, and what modifications were introduced."
+          },
+          "7.5": {
+            "title": "Obsolete Documents",
+            "must_contain": [
+              "Removal from active use",
+              "Clear identification if retained",
+              "Retention for traceability purposes where needed"
+            ],
+            "example_text": "Obsolete versions are removed from active use and clearly identified if retained for traceability."
+          },
+          "7.6": {
+            "title": "External Documents",
+            "must_contain": [
+              "Identification of external documents required for compliance",
+              "Monitoring for updates",
+              "Assessment and implementation of updates when applicable"
+            ],
+            "example_text": "Externally sourced documents required for compliance are identified and monitored. Updates are assessed and implemented when applicable."
+          }
+        }
+      },
+      
+      "8": {
+        "section_number": "8",
+        "section_title": "Control of Records",
+        "description": "Requirements for records identification, corrections, storage, and protection",
+        "subsections": {
+          "8.1": {
+            "title": "Identification and Completeness",
+            "must_contain": [
+              "Records must be legible",
+              "Records must be dated",
+              "Linkage to relevant activity/process/product"
+            ],
+            "example_text": "Records must be legible, dated, and linked to the relevant activity, process, or product as applicable."
+          },
+          "8.2": {
+            "title": "Corrections",
+            "must_contain": [
+              "Original information must not be obscured",
+              "Corrections must remain traceable",
+              "Method of correction defined"
+            ],
+            "example_text": "Corrections must not obscure original information and must remain traceable."
+          },
+          "8.3": {
+            "title": "Storage and Protection",
+            "must_contain": [
+              "Protection against loss",
+              "Protection against deterioration",
+              "Protection against unauthorized access"
+            ],
+            "example_text": "Records are protected against loss, deterioration, and unauthorized access."
+          },
+          "8.4": {
+            "title": "Electronic Systems",
+            "must_contain": [
+              "Validation required for systems impacting QMS",
+              "Risk-based validation approach",
+              "Reference to software validation procedure"
+            ],
+            "example_text": "Any electronic system used to generate, manage, store, or retrieve QMS records shall be validated when it impacts the QMS, in accordance with the organization's software validation procedure, using a risk-based approach."
+          }
+        }
+      },
+      
+      "9": {
+        "section_number": "9",
+        "section_title": "Training",
+        "description": "Training requirements for document and record control",
+        "must_contain": [
+          "Personnel training on document control rules",
+          "Training on record completion requirements",
+          "Training evidence retention as quality records",
+          "Personnel competency assessment"
+        ],
+        "example_text": "Personnel are trained in document control rules and record completion requirements, where applicable. Training evidence is retained as quality records."
+      },
+      
+      "10": {
+        "section_number": "10",
+        "section_title": "Monitoring and Improvement",
+        "description": "Measures for evaluating and improving document and record control effectiveness",
+        "must_contain": [
+          "Effectiveness evaluation through audits",
+          "Collection and review of feedback",
+          "Management review of performance",
+          "Implementation of improvements through change control"
+        ],
+        "example_text": "The effectiveness of document and record control is evaluated through audits, feedback, and management review. Improvements are implemented through controlled change processes."
+      },
+      
+      "11": {
+        "section_number": "11",
+        "section_title": "Records",
+        "description": "Lists records generated by this procedure",
+        "must_contain": [
+          "Document Master List",
+          "External Document List (if applicable)",
+          "Document Change Log / Change Requests",
+          "Document Review and Approval Evidence",
+          "Distribution or Access Evidence",
+          "Training Evidence",
+          "Record Retention Rules",
+          "Reference to Records List with storage location and retention period"
+        ],
+        "example_text": "The following records are generated and/or maintained as part of this procedure, where applicable:\n• Document Master List\n• External Document List (if external documents are controlled)\n• Document Change Log / Change Requests\n• Document Review and Approval Evidence\n• Distribution or Access Evidence\n• Training Evidence related to document control\n• Record Retention Rules"
+      },
+      
+      "12": {
+        "section_number": "12",
+        "section_title": "Retention",
+        "description": "Record retention requirements",
+        "must_contain": [
+          "Default retention period (minimum 10 years after last device placed on market)",
+          "Compliance with regulatory requirements (EU MDR, etc.)",
+          "Protection of records integrity throughout retention",
+          "Confidentiality and retrievability"
+        ],
+        "example_text": "Unless otherwise specified, records generated under this procedure shall be retained for a minimum of ten (10) years after the last device has been placed on the market. Retention periods shall comply with applicable regulatory requirements. Records shall be protected throughout their retention period to ensure integrity, confidentiality, and retrievability."
+      }
+    },
+
+    "document_control_information": {
+      "title": "Document Control Information (Mandatory Header)",
+      "description": "Every controlled document must include this on its first page",
+      "must_contain": [
+        "Unique Document ID with established prefix",
+        "Document title",
+        "Version/revision number",
+        "Effective date",
+        "Status (Draft, Approved, Obsolete)",
+        "Author name",
+        "Reviewer name",
+        "Approver name",
+        "Revision History section with version, date, and changes",
+        "Statement that only current approved version shall be used",
+        "Statement about withdrawal of obsolete versions"
+      ],
+      "example_text": "This document is a controlled document of the Quality Management System (QMS). It shall be used only in its current approved version. Each controlled document shall clearly identify: A unique Document Identification Code (ID) with an established prefix, Document title, Version or revision number, Effective date, Status (e.g., Draft, Approved, Obsolete), Author, Reviewer, Approver. Revision Traceability: Each document shall include a Revision History section indicating version number, date of revision, and description of changes introduced."
+    },
+
+    "key_explanations": {
+      "traceability": "The ability to track where information came from, who changed it, and when. All changes must be documented with who made them and when.",
+      "version_control": "Managing different versions of documents to ensure only the current approved version is in use.",
+      "approval": "Formal authorization by a designated person with authority to release a document for use.",
+      "obsolete": "A document version that is no longer in use but may be kept for regulatory or traceability reasons.",
+      "record": "Objective evidence - proof that something happened or was done correctly.",
+      "controlled_document": "A document that is managed under strict rules: identification, approval, distribution, review, and version control.",
+      "EDMS": "Electronic system for managing documents - must have version control, access control, and traceability.",
+      "separation_of_duties": "The person creating a document cannot be the person approving it - different people for different roles.",
+      "legibility": "Documents and records must be readable throughout their entire lifecycle."
+    },
+
+    "common_mistakes": [
+      "Not separating creator and approver roles",
+      "Missing revision history or change documentation",
+      "Using obsolete documents without realizing they're outdated",
+      "Not dating or identifying records properly",
+      "Failing to protect electronic systems with proper access controls",
+      "Not reviewing documents periodically for continued relevance",
+      "Inadequate training on document control procedures",
+      "Missing approval signatures or evidence"
+    ]
+  }
+}
