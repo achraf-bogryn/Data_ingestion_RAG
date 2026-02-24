@@ -1,0 +1,164 @@
+{
+  "standard": "ISO 13485:2016",
+  "clause_references": ["4.2.4", "4.2.5"],
+  "clause_titles": ["Control of Documents", "Control of Records"],
+  "procedure_id": "PROC-QMS-DCR-001",
+  "procedure_name": "Procedure for Control of Documents and Records",
+  "sections": {
+    "document_control_information": {
+      "statement": "This document is a controlled document of the Quality Management System (QMS). It shall be used only in its current approved version.",
+      "mandatory_first_page_fields": [
+        "Unique Document Identification Code (ID) with an established prefix according to the organization’s document coding system",
+        "Document title",
+        "Version or revision number",
+        "Effective date",
+        "Status (e.g., Draft, Approved, Obsolete)",
+        "Author",
+        "Reviewer",
+        "Approver"
+      ]
+    },
+    "revision_traceability": {
+      "revision_history_fields": [
+        "Version number",
+        "Date of revision",
+        "Description of changes introduced"
+      ],
+      "accountability_rules": [
+        "Author, Reviewer, and Approver shall be clearly identified throughout the document lifecycle",
+        "Only the current approved version shall be available for use",
+        "Obsolete versions shall be withdrawn from points of use and retained only when required for traceability or regulatory purposes"
+      ]
+    },
+    "purpose": "This procedure defines the principles and requirements for controlling documents and records within a Quality Management System (QMS). It ensures that documented information remains accurate, approved, traceable, accessible, protected, and retained in accordance with ISO 13485:2016 requirements. It prevents unintended use of obsolete documents and ensures that records provide reliable objective evidence of conformity.",
+    "scope": "This procedure applies to all documents and records forming part of the QMS, whether internal or external, paper-based or electronic. It includes policies, procedures, work instructions, forms, templates, specifications, and plans. This procedure applies to all personnel involved in creating, reviewing, approving, using, maintaining, storing, or archiving controlled documentation.",
+    "references": {
+      "always_applicable": [
+        "ISO 13485:2016 – Clause 4.2.4 Control of Documents",
+        "ISO 13485:2016 – Clause 4.2.5 Control of Records"
+      ],
+      "conditionally_applicable": [
+        "Regulatory and customer requirements (only when they exist and are applicable to the organization, its products/services, or its markets)"
+      ]
+    },
+    "definitions": [
+      {
+        "term": "Document",
+        "definition": "Controlled information describing requirements, instructions, or specifications necessary for QMS operation."
+      },
+      {
+        "term": "Record",
+        "definition": "Evidence that an activity was performed or a result achieved. Records are fixed after issuance and corrections must remain traceable."
+      },
+      {
+        "term": "Controlled Document",
+        "definition": "A document subject to approval, version control, and distribution rules."
+      },
+      {
+        "term": "Obsolete Document",
+        "definition": "A withdrawn version retained only for traceability or regulatory purposes."
+      },
+      {
+        "term": "Electronic Document Management System (EDMS)",
+        "definition": "A computerized system used to manage documents and records, ensuring version control, access control, traceability, and data integrity.",
+        "condition": "Applies if the organization uses a computerized system to create, approve, distribute, store, or archive QMS documents and records."
+      }
+    ],
+    "responsibilities": [
+      {
+        "role": "Top Management",
+        "responsibility": "Ensures resources are available to maintain effective document and record control."
+      },
+      {
+        "role": "Quality Manager",
+        "responsibility": "Owns the document control system and ensures compliance with ISO requirements."
+      },
+      {
+        "role": "Process Owners",
+        "responsibility": "Ensure accuracy and relevance of documents within their scope."
+      },
+      {
+        "role": "Authors",
+        "responsibility": "Draft documents in accordance with approved rules and ensure clarity and applicability."
+      },
+      {
+        "role": "Reviewers",
+        "responsibility": "Perform independent review to confirm technical accuracy, coherence, and compliance."
+      },
+      {
+        "role": "Approvers",
+        "responsibility": "Authorize release of documents. The individual who creates a document shall not be the same person who approves it."
+      },
+      {
+        "role": "Personnel",
+        "responsibility": "Use only approved documents and complete records accurately."
+      },
+      {
+        "role": "IT Function (where applicable)",
+        "responsibility": "Maintains security, backups, access control, and availability of electronic systems used for documented information."
+      }
+    ],
+    "process_map": [
+      "Creation or identification of need",
+      "Drafting",
+      "Review and approval",
+      "Release and distribution",
+      "Use and record generation",
+      "Revision and re-approval (when required)",
+      "Archiving",
+      "Retention and secure destruction"
+    ],
+    "control_of_documents": {
+      "7_1_identification": "Each controlled document shall include a unique identifier, title, and an effective status/version identifier as defined by the organization’s document control rules. Documents must remain legible and identifiable throughout their lifecycle.",
+      "7_2_creation_and_approval": [
+        "Documents are created based on operational, quality, or compliance needs.",
+        "Documents shall be reviewed and formally approved before release.",
+        "The person who creates a document shall not approve their own document."
+      ],
+      "7_3_distribution_and_access": [
+        "Only approved versions are available at points of use.",
+        "Access rights prevent unauthorized modification."
+      ],
+      "7_4_periodic_review": [
+        "Documents are reviewed at planned intervals or triggered by audits, regulatory changes, or process modifications.",
+        "Controlled documents are managed through formal version control.",
+        "All revisions shall be traceable, indicating who performed the change, when it was made, and what modifications were introduced."
+      ],
+      "7_5_obsolete_documents": "Obsolete versions are removed from active use and clearly identified if retained for traceability.",
+      "7_6_external_documents": "Externally sourced documents required for compliance are identified and monitored. Updates are assessed and implemented when applicable."
+    },
+    "control_of_records": {
+      "8_1_identification_and_completeness": "Records must be legible, dated, and linked to the relevant activity, process, or product as applicable.",
+      "8_2_corrections": "Corrections must not obscure original information and must remain traceable.",
+      "8_3_storage_and_protection": "Records are protected against loss, deterioration, and unauthorized access.",
+      "8_4_electronic_systems_impacting_qms": "Any electronic system used to generate, manage, store, or retrieve QMS records shall be validated when it impacts the QMS, in accordance with the organization’s software validation procedure, using a risk-based approach."
+    },
+    "training": [
+      "Personnel are trained in document control rules and record completion requirements, where applicable.",
+      "Training evidence is retained as quality records."
+    ],
+    "monitoring_and_improvement": "The effectiveness of document and record control is evaluated through audits, feedback, and management review. Improvements are implemented through controlled change processes.",
+    "records": [
+      "Document Master List",
+      "External Document List (if external documents are controlled)",
+      "Document Change Log / Change Requests",
+      "Document Review and Approval Evidence",
+      "Distribution or Access Evidence (e.g., controlled distribution list or system access logs, if used)",
+      "Training Evidence related to document control",
+      "Record Retention Rules",
+      "Records List identifying storage location and defined retention period"
+    ],
+    "retention": [
+      "Unless otherwise specified, records generated under this procedure shall be retained for a minimum of ten (10) years after the last device has been placed on the market.",
+      "Retention periods shall comply with applicable regulatory requirements, including but not limited to Regulation (EU) 2017/745 (EU MDR), Article 10(8), where applicable.",
+      "Records shall be protected throughout their retention period to ensure integrity, confidentiality, and retrievability."
+    ]
+  },
+  "retrieval_text": "Procedure for Control of Documents and Records. Clause 4.2.4 Control of Documents. Clause 4.2.5 Control of Records. Controlled document mandatory fields: document ID, title, version, effective date, status, author, reviewer, approver. Revision history: version number, date, description of changes. Roles: Top Management, Quality Manager, Process Owners, Authors, Reviewers, Approvers, Personnel, IT. Document lifecycle: creation, drafting, review/approval, release/distribution, use/record generation, revision/re-approval, archiving, retention/destruction. Document controls: identification, approval, distribution, periodic review, obsolete control, external documents. Record controls: identification, corrections traceability, storage/protection, electronic system validation. Training evidence retained. Records: master list, change log, approval evidence, access logs, retention rules. Retention minimum 10 years after last device placed on market; protect integrity/confidentiality/retrievability.",
+  "metadata": {
+    "domain": "QMS",
+    "process_area": "Document and Record Control",
+    "language": "English",
+    "output_mode": "full_procedure_package"
+  }
+}
