@@ -348,6 +348,7 @@
 #     st.markdown(report)
 
 
+# app.py
 import os, re, json
 from pathlib import Path
 from typing import List, Dict, Any
@@ -359,6 +360,10 @@ from langchain.chat_models import ChatOpenAI
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import Chroma
 from rank_bm25 import BM25Okapi
+
+# ✅ FIX: proper message type for invoke()
+from langchain_core.messages import HumanMessage
+
 
 # ---------- ENV ----------
 load_dotenv()
@@ -372,10 +377,11 @@ st.set_page_config(page_title="ISO 13485 Procedure Assistant", layout="wide")
 st.title("📘 ISO 13485 — Procedure Template + Q&A (Perfect Phase 1)")
 
 BASE_DIR = Path(__file__).parent
-DEFAULT_JSON = str(BASE_DIR / "data.json")
+DEFAULT_JSON = str(BASE_DIR / "data_v3.json")
 DEFAULT_PERSIST = str(BASE_DIR / "chroma_qms")
 DEFAULT_COLLECTION = "iso13485_procedures"
 FALLBACK_RESPONSE = "This procedure is not available in the current ISO 13485 clause dataset."
+
 
 # ---------- Load dataset ----------
 def load_entries(path: str) -> List[Dict[str, Any]]:
@@ -414,6 +420,7 @@ def entries_to_texts_and_meta(entries: List[Dict[str, Any]]):
         metas.append(meta)
     return texts, metas
 
+
 # ---------- BM25 ----------
 class SimpleBM25:
     def __init__(self, texts, metas):
@@ -428,6 +435,7 @@ class SimpleBM25:
         scores = self.bm25.get_scores(self._tok(q))
         idxs = sorted(range(len(scores)), key=lambda i: scores[i], reverse=True)[:k]
         return [{"text": self.texts[i], "meta": self.metas[i], "score": float(scores[i])} for i in idxs]
+
 
 # ---------- Chroma ----------
 def build_or_load_chroma(texts, metas, persist_dir, collection, embeddings):
@@ -447,6 +455,7 @@ def build_or_load_chroma(texts, metas, persist_dir, collection, embeddings):
         )
         db.persist()
         return db
+
 
 def hybrid_search(bm25: SimpleBM25, db: Chroma, query: str, top_k: int = 6):
     bm_hits = bm25.search(query, k=top_k * 2)
@@ -474,6 +483,7 @@ def hybrid_search(bm25: SimpleBM25, db: Chroma, query: str, top_k: int = 6):
     out.sort(key=lambda x: x["score"], reverse=True)
     return out[:top_k]
 
+
 # ---------- Detect "full procedure" intent ----------
 FULL_TRIGGERS = [
     "give me the procedure", "full procedure", "procedure of", "sop", "template",
@@ -482,6 +492,7 @@ FULL_TRIGGERS = [
 def wants_full(q: str) -> bool:
     ql = q.lower()
     return any(t in ql for t in FULL_TRIGGERS)
+
 
 # ---------- Deterministic renderer (NO summarizing) ----------
 def md_escape_title(s: str) -> str:
@@ -498,7 +509,6 @@ def render_value(v):
         lines = []
         for item in v:
             if isinstance(item, dict):
-                # common dict shapes
                 if "role" in item and "responsibility" in item:
                     lines.append(f"- **{item['role']}**: {item['responsibility']}")
                 elif "term" in item and "definition" in item:
@@ -539,7 +549,8 @@ def render_full_procedure(meta: Dict[str, Any]) -> str:
         md.append("")
     return "\n".join(md).strip()
 
-# ---------- Q&A from JSON only ----------
+
+# ---------- ✅ FIXED Q&A (LangChain invoke + HumanMessage) ----------
 def answer_from_json(llm: ChatOpenAI, user_q: str, meta: Dict[str, Any]) -> str:
     proc_name = meta.get("procedure_name", "")
     clause_refs = meta.get("clause_references", "")
@@ -561,9 +572,12 @@ User question:
 {user_q}
 
 Return a clear answer in Markdown and mention the section name where you found it.
-"""
-    resp = llm(prompt)
+""".strip()
+
+    # ✅ correct for current LangChain behavior
+    resp = llm.invoke([HumanMessage(content=prompt)])
     return getattr(resp, "content", str(resp)).strip()
+
 
 # ---------- Sidebar ----------
 with st.sidebar:
